@@ -12,10 +12,10 @@
   </owl:Ontology>
   <owl:Class rdf:ID="Point">
     <rdfs:subClassOf>
-      <owl:Class rdf:ID="LineString"/>
+      <owl:Class rdf:ID="Geometry"/>
     </rdfs:subClassOf>
     <rdfs:subClassOf>
-      <owl:Class rdf:ID="Geometry"/>
+      <owl:Class rdf:ID="LineString"/>
     </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:ID="SpatialReferenceSystem"/>
@@ -34,13 +34,21 @@
     <rdfs:subClassOf rdf:resource="#Geometry"/>
   </owl:Class>
   <rdf:Property rdf:ID="longitude"/>
-  <rdf:Property rdf:ID="z"/>
   <rdf:Property rdf:ID="x"/>
+  <rdf:Property rdf:ID="intersects"/>
   <rdf:Property rdf:ID="altitude"/>
   <rdf:Property rdf:ID="long"/>
+  <rdf:Property rdf:ID="equals"/>
   <rdf:Property rdf:ID="height"/>
-  <rdf:Property rdf:ID="latitude"/>
   <rdf:Property rdf:ID="lat"/>
+  <rdf:Property rdf:ID="latitude"/>
+  <rdf:Property rdf:ID="overlaps"/>
+  <rdf:Property rdf:ID="disjoint"/>
+  <rdf:Property rdf:ID="within"/>
+  <rdf:Property rdf:ID="z"/>
+  <rdf:Property rdf:ID="crosses"/>
+  <rdf:Property rdf:ID="contains"/>
+  <rdf:Property rdf:ID="touches"/>
   <rdf:Property rdf:ID="y"/>
 </rdf:RDF>
 
