@@ -5,6 +5,13 @@ import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
 
+/*
+ * @author 	Marco Neumann
+ * @serial  1/21/2008
+ * @version 1
+ * @see 	http://geospatialweb.googlecode.com
+ */
+
 public class GEO {
 	private static Model m_model = ModelFactory.createDefaultModel();
     public static final String NS = "http://geospatialweb.googlecode.com/svn/trunk/geospatialweb/geo/elements/1.0/geo.owl";
