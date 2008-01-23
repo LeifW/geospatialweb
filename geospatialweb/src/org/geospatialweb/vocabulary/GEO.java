@@ -49,6 +49,7 @@ public class GEO {
     public static final Resource Curve = m_model.createResource( NS+"#Curve" );
     public static final Resource GeometryCollection = m_model.createResource( NS+"#GeometryCollection" );    
     public static final Resource Surface = m_model.createResource( NS+"#Surface" );
-    public static final Resource LineString = m_model.createResource( NS+"#LineString" );    
+    public static final Resource LineString = m_model.createResource( NS+"#LineString" );   
+    
 }
 
