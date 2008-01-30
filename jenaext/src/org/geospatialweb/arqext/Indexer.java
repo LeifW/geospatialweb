@@ -1,5 +1,8 @@
 package org.geospatialweb.arqext;
 
+import java.util.LinkedList;
+import java.util.List;
+
 import spatialindex.IData;
 import spatialindex.INode;
 import spatialindex.ISpatialIndex;
@@ -10,13 +13,6 @@ import spatialindex.rtree.RTree;
 import spatialindex.storagemanager.IStorageManager;
 import spatialindex.storagemanager.PropertySet;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-
-
-import com.hp.hpl.jena.graph.Node;
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
@@ -32,7 +28,6 @@ import com.hp.hpl.jena.rdf.model.ModelFactory;
  */
 public class Indexer {
 
-	private Set<Node> seen = new HashSet<Node>();
 	private ISpatialIndex index;
 	private int id = 0;
 
@@ -76,23 +71,5 @@ public class Indexer {
 		return results;
 	}
 	
-	public static void main(String[] args) {
-		Model m = ModelFactory.createDefaultModel();
-		m.read("file:capitals.rdf");
-		IStorageManager store = SpatialIndex.createMemoryStorageManager();
-		RTree rtree = new RTree(props(), store);
-		Indexer i = new Indexer(rtree);
-		i.createIndex(m);
-	}
-	
-	private static PropertySet props() {
-		PropertySet ps2 = new PropertySet();
-		Double f = new Double(0.7);
-		ps2.setProperty("FillFactor", f);
-		ps2.setProperty("IndexCapacity", 20);
-		ps2.setProperty("LeafCapacity", 20);
-			// Index capacity and leaf capacity may be different.
-		ps2.setProperty("Dimension", 2);
-		return ps2;
-	}
+
 }
