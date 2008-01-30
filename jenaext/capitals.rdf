@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns="http://www.geonames.org/ontology#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<Feature rdf:about="http://sws.geonames.org/2950159/">
+<name>Berlin</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#DE"/>
+<population>3383782</population>
+<wgs84_pos:lat>52.5166667</wgs84_pos:lat>
+<wgs84_pos:long>13.4</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2950159/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2950159/berlin.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/98182/">
+<name>Baghdad</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#IQ"/>
+<population>5672513</population>
+<wgs84_pos:lat>33.3386111</wgs84_pos:lat>
+<wgs84_pos:long>44.3938889</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/98182/nearby.rdf"/>
+<locationMap>http://www.geonames.org/98182/baghdad.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/112931/">
+<name>Tehran</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#IR"/>
+<population>7153309</population>
+<wgs84_pos:lat>35.6719444</wgs84_pos:lat>
+<wgs84_pos:long>51.4244444</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/112931/nearby.rdf"/>
+<locationMap>http://www.geonames.org/112931/tehran.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/323786/">
+<name>Ankara</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#TR"/>
+<population>3517182</population>
+<wgs84_pos:lat>39.9272222</wgs84_pos:lat>
+<wgs84_pos:long>32.8644444</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/323786/nearby.rdf"/>
+<locationMap>http://www.geonames.org/323786/ankara.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/360630/">
+<name>Cairo</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#EG"/>
+<population>7734614</population>
+<wgs84_pos:lat>30.05</wgs84_pos:lat>
+<wgs84_pos:long>31.25</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/360630/nearby.rdf"/>
+<locationMap>http://www.geonames.org/360630/cairo.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/524901/">
+<name>Moscow</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#RU"/>
+<population>10381222</population>
+<wgs84_pos:lat>55.7522222</wgs84_pos:lat>
+<wgs84_pos:long>37.6155556</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/524901/nearby.rdf"/>
+<locationMap>http://www.geonames.org/524901/moskva.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1185241/">
+<name>Dhaka</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#BD"/>
+<population>10356500</population>
+<wgs84_pos:lat>23.7230556</wgs84_pos:lat>
+<wgs84_pos:long>90.4086111</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1185241/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1185241/dhaka.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1642911/">
+<name>Jakarta</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#ID"/>
+<population>8540121</population>
+<wgs84_pos:lat>-6.1744444</wgs84_pos:lat>
+<wgs84_pos:long>106.8294444</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1642911/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1642911/jakarta.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1701668/">
+<name>Manila</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#PH"/>
+<population>10444527</population>
+<wgs84_pos:lat>14.6041667</wgs84_pos:lat>
+<wgs84_pos:long>120.9822222</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1701668/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1701668/manila.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1816670/">
+<name>Beijing</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#CN"/>
+<population>7480601</population>
+<wgs84_pos:lat>39.9288889</wgs84_pos:lat>
+<wgs84_pos:long>116.3883333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1816670/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1816670/beijing.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1835848/">
+<name>Seoul</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#KR"/>
+<population>10349312</population>
+<wgs84_pos:lat>37.5663889</wgs84_pos:lat>
+<wgs84_pos:long>126.9997222</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1835848/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1835848/seoul.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1850147/">
+<name>Tokyo</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#JP"/>
+<population>8336599</population>
+<wgs84_pos:lat>35.685</wgs84_pos:lat>
+<wgs84_pos:long>139.7513889</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1850147/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1850147/tokyo.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2314302/">
+<name>Kinshasa</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#CD"/>
+<population>7785965</population>
+<wgs84_pos:lat>-4.3297222</wgs84_pos:lat>
+<wgs84_pos:long>15.315</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2314302/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2314302/kinshasa.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2643743/">
+<name>London</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#GB"/>
+<population>7421209</population>
+<wgs84_pos:lat>51.5084152563931</wgs84_pos:lat>
+<wgs84_pos:long>-0.125532746315002</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2643743/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2643743/london.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3117735/">
+<name>Madrid</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#ES"/>
+<population>3117977</population>
+<postalCode>28080</postalCode>
+<wgs84_pos:lat>40.4165020941502</wgs84_pos:lat>
+<wgs84_pos:long>-3.70256423950195</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3117735/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3117735/madrid.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3169070/">
+<name>Rome</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#IT"/>
+<population>2563241</population>
+<wgs84_pos:lat>41.9</wgs84_pos:lat>
+<wgs84_pos:long>12.4833333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3169070/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3169070/rome.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3530597/">
+<name>Mexico City</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#MX"/>
+<population>11285654</population>
+<wgs84_pos:lat>19.4341667</wgs84_pos:lat>
+<wgs84_pos:long>-99.1386111</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3530597/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3530597/mexico.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1609350/">
+<name>Bangkok</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#TH"/>
+<population>5104476</population>
+<wgs84_pos:lat>13.75</wgs84_pos:lat>
+<wgs84_pos:long>100.5166667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1609350/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1609350/bangkok.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2988507/">
+<name>Paris</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#FR"/>
+<population>2138551</population>
+<postalCode>75000</postalCode>
+<wgs84_pos:lat>48.8666667</wgs84_pos:lat>
+<wgs84_pos:long>2.3333333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2988507/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2988507/paris.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/53654/">
+<name>Mogadishu</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#SO"/>
+<population>2587183</population>
+<wgs84_pos:lat>2.0666667</wgs84_pos:lat>
+<wgs84_pos:long>45.3666667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/53654/nearby.rdf"/>
+<locationMap>http://www.geonames.org/53654/mogadishu.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/71137/">
+<name>San‘a’</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#YE"/>
+<population>1778900</population>
+<wgs84_pos:lat>15.3547222</wgs84_pos:lat>
+<wgs84_pos:long>44.2066667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/71137/nearby.rdf"/>
+<locationMap>http://www.geonames.org/71137/sanaa.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/108410/">
+<name>Riyadh</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#SA"/>
+<population>4205961</population>
+<wgs84_pos:lat>24.6408333</wgs84_pos:lat>
+<wgs84_pos:long>46.7727778</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/108410/nearby.rdf"/>
+<locationMap>http://www.geonames.org/108410/riyadh.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/160263/">
+<name>Dar es Salaam</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#TZ"/>
+<population>2698652</population>
+<wgs84_pos:lat>-6.8</wgs84_pos:lat>
+<wgs84_pos:long>39.2833333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/160263/nearby.rdf"/>
+<locationMap>http://www.geonames.org/160263/dar-es-salaam.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/170654/">
+<name>Damascus</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#SY"/>
+<population>1569394</population>
+<wgs84_pos:lat>33.5</wgs84_pos:lat>
+<wgs84_pos:long>36.3</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/170654/nearby.rdf"/>
+<locationMap>http://www.geonames.org/170654/damascus.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/184745/">
+<name>Nairobi</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#KE"/>
+<population>2750547</population>
+<wgs84_pos:lat>-1.2833333</wgs84_pos:lat>
+<wgs84_pos:long>36.8166667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/184745/nearby.rdf"/>
+<locationMap>http://www.geonames.org/184745/nairobi.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/232422/">
+<name>Kampala</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#UG"/>
+<population>1353189</population>
+<wgs84_pos:lat>0.3155556</wgs84_pos:lat>
+<wgs84_pos:long>32.5655556</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/232422/nearby.rdf"/>
+<locationMap>http://www.geonames.org/232422/kampala.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/250441/">
+<name>Amman</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#JO"/>
+<population>1275857</population>
+<wgs84_pos:lat>31.95</wgs84_pos:lat>
+<wgs84_pos:long>35.9333333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/250441/nearby.rdf"/>
+<locationMap>http://www.geonames.org/250441/amman.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/264371/">
+<name>Athens</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#GR"/>
+<population>729137</population>
+<wgs84_pos:lat>37.9833333</wgs84_pos:lat>
+<wgs84_pos:long>23.7333333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/264371/nearby.rdf"/>
+<locationMap>http://www.geonames.org/264371/athens.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/276781/">
+<name>Beirut</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#LB"/>
+<population>1916100</population>
+<wgs84_pos:lat>33.8719444</wgs84_pos:lat>
+<wgs84_pos:long>35.5097222</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/276781/nearby.rdf"/>
+<locationMap>http://www.geonames.org/276781/beirut.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/344979/">
+<name>Addis Ababa</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#ET"/>
+<population>2757729</population>
+<wgs84_pos:lat>9.0333333</wgs84_pos:lat>
+<wgs84_pos:long>38.7</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/344979/nearby.rdf"/>
+<locationMap>http://www.geonames.org/344979/addis-ababa.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/379252/">
+<name>Khartoum</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#SD"/>
+<population>1974647</population>
+<wgs84_pos:lat>15.5880556</wgs84_pos:lat>
+<wgs84_pos:long>32.5341667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/379252/nearby.rdf"/>
+<locationMap>http://www.geonames.org/379252/khartoum.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/587084/">
+<name>Baku</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#AZ"/>
+<population>1116513</population>
+<wgs84_pos:lat>40.3952778</wgs84_pos:lat>
+<wgs84_pos:long>49.8822222</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/587084/nearby.rdf"/>
+<locationMap>http://www.geonames.org/587084/baku.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/611717/">
+<name>Tbilisi</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#GE"/>
+<population>1049498</population>
+<wgs84_pos:lat>41.725</wgs84_pos:lat>
+<wgs84_pos:long>44.7908333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/611717/nearby.rdf"/>
+<locationMap>http://www.geonames.org/611717/tbilisi.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/625144/">
+<name>Minsk</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#BY"/>
+<population>1742124</population>
+<wgs84_pos:lat>53.9</wgs84_pos:lat>
+<wgs84_pos:long>27.5666667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/625144/nearby.rdf"/>
+<locationMap>http://www.geonames.org/625144/minsk.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/683506/">
+<name>Bucharest</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#RO"/>
+<population>1877155</population>
+<wgs84_pos:lat>44.4333333</wgs84_pos:lat>
+<wgs84_pos:long>26.1</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/683506/nearby.rdf"/>
+<locationMap>http://www.geonames.org/683506/bucharest.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/703448/">
+<name>Kiev</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#UA"/>
+<population>2514227</population>
+<wgs84_pos:lat>50.4333333</wgs84_pos:lat>
+<wgs84_pos:long>30.5166667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/703448/nearby.rdf"/>
+<locationMap>http://www.geonames.org/703448/kiev.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/756135/">
+<name>Warsaw</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#PL"/>
+<population>1651676</population>
+<wgs84_pos:lat>52.25</wgs84_pos:lat>
+<wgs84_pos:long>21.0</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/756135/nearby.rdf"/>
+<locationMap>http://www.geonames.org/756135/warsaw.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/909137/">
+<name>Lusaka</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#ZM"/>
+<population>1267440</population>
+<wgs84_pos:lat>-15.4166667</wgs84_pos:lat>
+<wgs84_pos:long>28.2833333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/909137/nearby.rdf"/>
+<locationMap>http://www.geonames.org/909137/lusaka.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/964137/">
+<name>Pretoria</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#ZA"/>
+<population>1619438</population>
+<wgs84_pos:lat>-25.7069444</wgs84_pos:lat>
+<wgs84_pos:long>28.2294444</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/964137/nearby.rdf"/>
+<locationMap>http://www.geonames.org/964137/pretoria.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1040652/">
+<name>Maputo</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#MZ"/>
+<population>1191613</population>
+<wgs84_pos:lat>-25.9652778</wgs84_pos:lat>
+<wgs84_pos:long>32.5891667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1040652/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1040652/maputo.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1070940/">
+<name>Antananarivo</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#MG"/>
+<population>1391433</population>
+<wgs84_pos:lat>-18.9166667</wgs84_pos:lat>
+<wgs84_pos:long>47.5166667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1070940/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1070940/antananarivo.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1138958/">
+<name>Kabul</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#AF"/>
+<population>3043532</population>
+<wgs84_pos:lat>34.5166667</wgs84_pos:lat>
+<wgs84_pos:long>69.1833333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1138958/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1138958/kabul.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1261481/">
+<name>New Delhi</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#IN"/>
+<population>317797</population>
+<wgs84_pos:lat>28.6</wgs84_pos:lat>
+<wgs84_pos:long>77.2</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1261481/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1261481/new-delhi.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1298824/">
+<name>Yangon</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#MM"/>
+<population>4477638</population>
+<wgs84_pos:lat>16.8052778</wgs84_pos:lat>
+<wgs84_pos:long>96.1561111</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1298824/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1298824/rangoon.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1512569/">
+<name>Tashkent</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#UZ"/>
+<population>1978028</population>
+<wgs84_pos:lat>41.3166667</wgs84_pos:lat>
+<wgs84_pos:long>69.25</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1512569/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1512569/tashkent.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1581130/">
+<name>Hanoi</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#VN"/>
+<population>1431270</population>
+<wgs84_pos:lat>21.0333333</wgs84_pos:lat>
+<wgs84_pos:long>105.85</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1581130/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1581130/hanoi.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1668341/">
+<name>Taipei</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#TW"/>
+<population>7871900</population>
+<wgs84_pos:lat>25.0391667</wgs84_pos:lat>
+<wgs84_pos:long>121.525</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1668341/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1668341/taipei.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1735161/">
+<name>Kuala Lumpur</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#MY"/>
+<population>1453975</population>
+<wgs84_pos:lat>3.1666667</wgs84_pos:lat>
+<wgs84_pos:long>101.7</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1735161/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1735161/kuala-lumpur.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1821306/">
+<name>Phnom Penh</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#KH"/>
+<population>1573544</population>
+<wgs84_pos:lat>11.55</wgs84_pos:lat>
+<wgs84_pos:long>104.9166667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1821306/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1821306/phnom-penh.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/1871859/">
+<name>Pyongyang</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#KP"/>
+<population>3222000</population>
+<wgs84_pos:lat>39.0194444</wgs84_pos:lat>
+<wgs84_pos:long>125.7547222</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/1871859/nearby.rdf"/>
+<locationMap>http://www.geonames.org/1871859/pyongyang.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2220957/">
+<name>Yaoundé</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#CM"/>
+<population>1299369</population>
+<wgs84_pos:lat>3.8666667</wgs84_pos:lat>
+<wgs84_pos:long>11.5166667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2220957/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2220957/yaounde.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2240449/">
+<name>Luanda</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#AO"/>
+<population>2776168</population>
+<wgs84_pos:lat>-8.8383333</wgs84_pos:lat>
+<wgs84_pos:long>13.2344444</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2240449/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2240449/luanda.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2260535/">
+<name>Brazzaville</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#CG"/>
+<population>1284609</population>
+<wgs84_pos:lat>-4.2591667</wgs84_pos:lat>
+<wgs84_pos:long>15.2847222</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2260535/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2260535/brazzaville.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2267057/">
+<name>Lisbon</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#PT"/>
+<population>517802</population>
+<wgs84_pos:lat>38.7166667</wgs84_pos:lat>
+<wgs84_pos:long>-9.1333333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2267057/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2267057/lisbon.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2306104/">
+<name>Accra</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#GH"/>
+<population>1963264</population>
+<wgs84_pos:lat>5.55</wgs84_pos:lat>
+<wgs84_pos:long>-0.2166667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2306104/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2306104/accra.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2352778/">
+<name>Abuja</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#NG"/>
+<population>590400</population>
+<wgs84_pos:lat>9.0833333</wgs84_pos:lat>
+<wgs84_pos:long>7.5333333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2352778/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2352778/abuja.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2357048/">
+<name>Ouagadougou</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#BF"/>
+<population>1086505</population>
+<wgs84_pos:lat>12.3702778</wgs84_pos:lat>
+<wgs84_pos:long>-1.5247222</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2357048/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2357048/ouagadougou.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2460596/">
+<name>Bamako</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#ML"/>
+<population>1297281</population>
+<wgs84_pos:lat>12.65</wgs84_pos:lat>
+<wgs84_pos:long>-8.0</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2460596/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2460596/bamako.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2507480/">
+<name>Algiers</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#DZ"/>
+<population>1977663</population>
+<wgs84_pos:lat>36.7630556</wgs84_pos:lat>
+<wgs84_pos:long>3.0505556</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2507480/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2507480/algiers.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2538475/">
+<name>Rabat</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#MA"/>
+<population>1655753</population>
+<wgs84_pos:lat>34.02</wgs84_pos:lat>
+<wgs84_pos:long>-6.83</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2538475/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2538475/rabat.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2618425/">
+<name>Copenhagen</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#DK"/>
+<population>1089957</population>
+<wgs84_pos:lat>55.6666667</wgs84_pos:lat>
+<wgs84_pos:long>12.5833333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2618425/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2618425/copenhagen.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2800866/">
+<name>Brussels</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#BE"/>
+<population>1019022</population>
+<wgs84_pos:lat>50.8465974826927</wgs84_pos:lat>
+<wgs84_pos:long>4.35277462005615</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2800866/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2800866/brussels.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2964574/">
+<name>Dublin</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#IE"/>
+<population>1024027</population>
+<wgs84_pos:lat>53.3330556</wgs84_pos:lat>
+<wgs84_pos:long>-6.2488889</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2964574/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2964574/dublin.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3067696/">
+<name>Prague</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#CZ"/>
+<population>1165581</population>
+<wgs84_pos:lat>50.0878367932108</wgs84_pos:lat>
+<wgs84_pos:long>14.4241322001241</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3067696/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3067696/praha.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3435910/">
+<name>Buenos Aires</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#AR"/>
+<population>13076300</population>
+<wgs84_pos:lat>-34.5875</wgs84_pos:lat>
+<wgs84_pos:long>-58.6725</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3435910/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3435910/buenos-aires.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3439389/">
+<name>Asunción</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#PY"/>
+<population>1482200</population>
+<wgs84_pos:lat>-25.2666667</wgs84_pos:lat>
+<wgs84_pos:long>-57.6666667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3439389/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3439389/asuncion.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3441575/">
+<name>Montevideo</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#UY"/>
+<population>1270737</population>
+<wgs84_pos:lat>-34.8580556</wgs84_pos:lat>
+<wgs84_pos:long>-56.1708333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3441575/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3441575/montevideo.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3469058/">
+<name>Brasília</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#BR"/>
+<population>2207718</population>
+<wgs84_pos:lat>-15.77972222</wgs84_pos:lat>
+<wgs84_pos:long>-47.92972222</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3469058/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3469058/brasilia.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3553478/">
+<name>Havana</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#CU"/>
+<population>2163824</population>
+<wgs84_pos:lat>23.1319444</wgs84_pos:lat>
+<wgs84_pos:long>-82.3641667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3553478/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3553478/havana.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3646738/">
+<name>Caracas</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#VE"/>
+<population>1815679</population>
+<wgs84_pos:lat>10.5</wgs84_pos:lat>
+<wgs84_pos:long>-66.9166667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3646738/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3646738/caracas.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3652462/">
+<name>Quito</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#EC"/>
+<population>1399814</population>
+<wgs84_pos:lat>-0.2166667</wgs84_pos:lat>
+<wgs84_pos:long>-78.5</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3652462/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3652462/quito.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3688689/">
+<name>Bogotá</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#CO"/>
+<population>7102602</population>
+<wgs84_pos:lat>4.6</wgs84_pos:lat>
+<wgs84_pos:long>-74.0833333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3688689/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3688689/bogota.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3718426/">
+<name>Port-au-Prince</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#HT"/>
+<population>1234742</population>
+<wgs84_pos:lat>18.5391667</wgs84_pos:lat>
+<wgs84_pos:long>-72.335</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3718426/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3718426/port-au-prince.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3871336/">
+<name>Santiago</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#CL"/>
+<population>4837295</population>
+<wgs84_pos:lat>-33.45</wgs84_pos:lat>
+<wgs84_pos:long>-70.6666667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3871336/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3871336/santiago.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3936456/">
+<name>Lima</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#PE"/>
+<population>7737002</population>
+<wgs84_pos:lat>-12.05</wgs84_pos:lat>
+<wgs84_pos:long>-77.05</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3936456/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3936456/lima.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/6094817/">
+<name>Ottawa</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#CA"/>
+<population>812129</population>
+<wgs84_pos:lat>45.4209405046496</wgs84_pos:lat>
+<wgs84_pos:long>-75.6902861595154</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/6094817/nearby.rdf"/>
+<locationMap>http://www.geonames.org/6094817/ottawa.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/616052/">
+<name>Yerevan</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#AM"/>
+<population>1093485</population>
+<wgs84_pos:lat>40.1811111</wgs84_pos:lat>
+<wgs84_pos:long>44.5136111</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/616052/nearby.rdf"/>
+<locationMap>http://www.geonames.org/616052/yerevan.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/3054643/">
+<name>Budapest</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#HU"/>
+<population>1696128</population>
+<wgs84_pos:lat>47.5</wgs84_pos:lat>
+<wgs84_pos:long>19.0833333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/3054643/nearby.rdf"/>
+<locationMap>http://www.geonames.org/3054643/budapest.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2761369/">
+<name>Vienna</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#AT"/>
+<population>1569316</population>
+<wgs84_pos:lat>48.2084877601653</wgs84_pos:lat>
+<wgs84_pos:long>16.3720750808716</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2761369/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2761369/wien.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2673730/">
+<name>Stockholm</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#SE"/>
+<population>1253309</population>
+<wgs84_pos:lat>59.3294681359869</wgs84_pos:lat>
+<wgs84_pos:long>18.0626392364502</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2673730/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2673730/stockholm.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/727011/">
+<name>Sofia</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#BG"/>
+<population>1152556</population>
+<postalCode>1000</postalCode>
+<wgs84_pos:lat>42.6975135281805</wgs84_pos:lat>
+<wgs84_pos:long>23.324146270752</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/727011/nearby.rdf"/>
+<locationMap>http://www.geonames.org/727011/sofia.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/2759794/">
+<name>Amsterdam</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#NL"/>
+<population>741636</population>
+<wgs84_pos:lat>52.35</wgs84_pos:lat>
+<wgs84_pos:long>4.9166667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/2759794/nearby.rdf"/>
+<locationMap>http://www.geonames.org/2759794/amsterdam.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/792680/">
+<name>Belgrade</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#RS"/>
+<population>1273651</population>
+<wgs84_pos:lat>44.8186111</wgs84_pos:lat>
+<wgs84_pos:long>20.4680556</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/792680/nearby.rdf"/>
+<locationMap>http://www.geonames.org/792680/belgrade.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/146268/">
+<name>Nicosia</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#CY"/>
+<population>200452</population>
+<wgs84_pos:lat>35.1666667</wgs84_pos:lat>
+<wgs84_pos:long>33.3666667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/146268/nearby.rdf"/>
+<locationMap>http://www.geonames.org/146268/nicosia.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/162183/">
+<name>Ashgabat</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#TM"/>
+<population>727700</population>
+<wgs84_pos:lat>37.95</wgs84_pos:lat>
+<wgs84_pos:long>58.3833333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/162183/nearby.rdf"/>
+<locationMap>http://www.geonames.org/162183/ashgabat.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/202061/">
+<name>Kigali</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#RW"/>
+<population>745261</population>
+<wgs84_pos:lat>-1.9536111</wgs84_pos:lat>
+<wgs84_pos:long>30.0605556</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/202061/nearby.rdf"/>
+<locationMap>http://www.geonames.org/202061/kigali.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/223817/">
+<name>Djibouti</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#DJ"/>
+<population>623891</population>
+<wgs84_pos:lat>11.595</wgs84_pos:lat>
+<wgs84_pos:long>43.1480556</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/223817/nearby.rdf"/>
+<locationMap>http://www.geonames.org/223817/djibouti.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/287286/">
+<name>Muscat</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#OM"/>
+<population>797000</population>
+<wgs84_pos:lat>23.6133333</wgs84_pos:lat>
+<wgs84_pos:long>58.5933333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/287286/nearby.rdf"/>
+<locationMap>http://www.geonames.org/287286/muscat.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/290030/">
+<name>Doha</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#QA"/>
+<population>344939</population>
+<wgs84_pos:lat>25.2866667</wgs84_pos:lat>
+<wgs84_pos:long>51.5333333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/290030/nearby.rdf"/>
+<locationMap>http://www.geonames.org/290030/doha.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/290340/">
+<name>Manama</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#BH"/>
+<population>147074</population>
+<wgs84_pos:lat>26.2361111</wgs84_pos:lat>
+<wgs84_pos:long>50.5830556</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/290340/nearby.rdf"/>
+<locationMap>http://www.geonames.org/290340/manama.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/292968/">
+<name>Abu Dhabi</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#AE"/>
+<population>603492</population>
+<wgs84_pos:lat>24.4666667</wgs84_pos:lat>
+<wgs84_pos:long>54.3666667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/292968/nearby.rdf"/>
+<locationMap>http://www.geonames.org/292968/abu-dhabi.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/343300/">
+<name>Asmara</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#ER"/>
+<population>563930</population>
+<wgs84_pos:lat>15.3333333</wgs84_pos:lat>
+<wgs84_pos:long>38.9333333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/343300/nearby.rdf"/>
+<locationMap>http://www.geonames.org/343300/asmara.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/425378/">
+<name>Bujumbura</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#BI"/>
+<population>331700</population>
+<wgs84_pos:lat>-3.3761111</wgs84_pos:lat>
+<wgs84_pos:long>29.36</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/425378/nearby.rdf"/>
+<locationMap>http://www.geonames.org/425378/bujumbura.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/456172/">
+<name>Rīga</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#LV"/>
+<population>742572</population>
+<wgs84_pos:lat>56.95</wgs84_pos:lat>
+<wgs84_pos:long>24.1</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/456172/nearby.rdf"/>
+<locationMap>http://www.geonames.org/456172/riga.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/588409/">
+<name>Tallinn</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#EE"/>
+<population>394024</population>
+<wgs84_pos:lat>59.4338889</wgs84_pos:lat>
+<wgs84_pos:long>24.7280556</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/588409/nearby.rdf"/>
+<locationMap>http://www.geonames.org/588409/tallinn.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/593116/">
+<name>Vilnius</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#LT"/>
+<population>542366</population>
+<wgs84_pos:lat>54.6833333</wgs84_pos:lat>
+<wgs84_pos:long>25.3166667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/593116/nearby.rdf"/>
+<locationMap>http://www.geonames.org/593116/vilnius.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/618426/">
+<name>Chişinău</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#MD"/>
+<population>635994</population>
+<wgs84_pos:lat>47.0055556</wgs84_pos:lat>
+<wgs84_pos:long>28.8575</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/618426/nearby.rdf"/>
+<locationMap>http://www.geonames.org/618426/chisinau.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/658225/">
+<name>Helsinki</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#FI"/>
+<population>558457</population>
+<wgs84_pos:lat>60.1755556</wgs84_pos:lat>
+<wgs84_pos:long>24.9341667</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/658225/nearby.rdf"/>
+<locationMap>http://www.geonames.org/658225/helsinki.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/785842/">
+<name>Skopje</name>
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#MK"/>
+<population>474889</population>
+<wgs84_pos:lat>42.0</wgs84_pos:lat>
+<wgs84_pos:long>21.4333333</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/785842/nearby.rdf"/>
+<locationMap>http://www.geonames.org/785842/skopje.html</locationMap>
+</Feature>
+<Feature rdf:about="http://sws.geonames.org/890299/">
+<name>Harare</name>
+
+<featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
+<featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
+<inCountry rdf:resource="http://www.geonames.org/countries/#ZW"/>
+<population>1542813</population>
+<wgs84_pos:lat>-17.8177778</wgs84_pos:lat>
+<wgs84_pos:long>31.0447222</wgs84_pos:long>
+<nearbyFeatures rdf:resource="http://sws.geonames.org/890299/nearby.rdf"/>
+<locationMap>http://www.geonames.org/890299/harare.html</locationMap>
+</Feature>
+</rdf:RDF>
