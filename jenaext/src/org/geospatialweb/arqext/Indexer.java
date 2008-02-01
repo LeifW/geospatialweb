@@ -5,9 +5,11 @@ import java.util.List;
 
 import spatialindex.IData;
 import spatialindex.INode;
+import spatialindex.IShape;
 import spatialindex.ISpatialIndex;
 import spatialindex.IVisitor;
 import spatialindex.Point;
+import spatialindex.Region;
 
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
@@ -60,11 +62,23 @@ public class Indexer {
 			public void visitData(IData d) {results.add(new String(d.getData()));}
 			public void visitNode(INode n) {}			
 		};
-
-		Point p = new Point(lat, lon);
-		index.nearestNeighborQuery(i, p, v);
+		index.nearestNeighborQuery(i, new Point(lat, lon), v);
 		return results;
 	}
+	
+	public List<String> getWithin(double lat, double lon, double lat2, double lon2, int i) {
+		
+		final List<String> results = new LinkedList<String>();
+		IVisitor v = new IVisitor() {
+			public void visitData(IData d) {results.add(new String(d.getData()));}
+			public void visitNode(INode n) {}			
+		};
+		double[] low = new double[] {lat, lon};
+		double[] high = new double[] {lat2, lon2};
+		IShape shape = new Region(low, high);
+		index.containmentQuery(shape, v);
+		return results;
+	}	
 	
 
 }

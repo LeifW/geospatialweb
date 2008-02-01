@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import com.hp.hpl.jena.graph.Node;
+import com.hp.hpl.jena.query.QueryExecException;
 import com.hp.hpl.jena.sparql.core.Var;
 import com.hp.hpl.jena.sparql.engine.ExecutionContext;
 import com.hp.hpl.jena.sparql.engine.QueryIterator;
@@ -38,6 +39,8 @@ public class nearby extends PropertyFunctionEval {
 		Indexer idx = (Indexer) ctx.getContext().get(Geo.indexKey);
 		List<String> l = idx.getNearby(asFloat(nlat), asFloat(nlon), asInteger(limit));
 		Node match = argSubject.getArg();
+		if (! match.isVariable())
+			throw new QueryExecException("nearby() must come first in your WHERE clause.");
 		HitConverter cnv = new HitConverter(binding, Var.alloc(match));
 		Iterator<?> iter = new Map1Iterator(cnv, l.iterator());
 		return new QueryIterPlainWrapper(iter, ctx);
