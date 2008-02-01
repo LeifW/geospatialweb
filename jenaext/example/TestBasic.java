@@ -46,7 +46,6 @@ public class TestBasic {
 		OntModel m = ModelFactory.createOntologyModel();
 		OntClass city =  m.createClass(base + "City");
 		OntClass other =  m.createClass(base + "Other");
-
 		
 		FileReader file = new FileReader("GB.txt");
 		BufferedReader reader = new BufferedReader(file);
@@ -88,11 +87,10 @@ public class TestBasic {
 		try {
 			ResultSet results = qexec.execSelect();
 			for (;results.hasNext();) {
-				QuerySolution soln = results.nextSolution();
+				QuerySolution soln = results.nextSolution(); soln.
 				double lat =  soln.getLiteral("lat").getDouble();
 				double lon = soln.getLiteral("lon").getDouble();
-				String place = soln.getLiteral("n").getString();
-				
+				String place = soln.getLiteral("n").getString();				
 				findNearbyStuff(m, i, place, lat, lon);
 			}
 		} finally {
