@@ -124,6 +124,39 @@ public class TestBasic {
 			qexec.close();
 		}
 	}
+	
+	@Test
+	public void testWithin() {
+		Model m = ModelFactory.createDefaultModel();
+		m.read("file:jenaext/capitals.rdf");
+		IStorageManager store = SpatialIndex.createMemoryStorageManager();
+		RTree rtree = new RTree(props(), store);
+		Indexer i = new Indexer(rtree);
+		i.createIndex(m);
+
+		
+		String queryString = 
+			"PREFIX : <http://www.geonames.org/ontology#>" +			
+			"PREFIX geo: <java:org.geospatialweb.arqext.>\n\n " +
+			"SELECT ?n WHERE { ?s geo:contains(38.18 -9.78 53.75 22.41 ) . ?s :name ?n }";
+
+		Query query = QueryFactory.create(queryString);
+		QueryExecution qexec = QueryExecutionFactory.create(query, m);
+		Geo.setContext(qexec, i);
+		try {
+			long t1 = System.currentTimeMillis();
+			ResultSet results = qexec.execSelect();
+			long t2 = System.currentTimeMillis();
+			System.out.println(t2-t1);
+			for (;results.hasNext();) {
+				System.out.println(results.nextSolution().getLiteral("n"));
+				
+			}
+		} finally {
+			qexec.close();
+		}
+		
+	}
 
 	@Test
 	public void testGood() {
