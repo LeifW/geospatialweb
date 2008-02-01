@@ -14,6 +14,9 @@ import java.io.IOException;
 
 import org.geospatialweb.arqext.Geo;
 import org.geospatialweb.arqext.Indexer;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
 
 
 
@@ -32,11 +35,8 @@ import com.hp.hpl.jena.rdf.model.Resource;
 
 public class TestBasic {
 	
-	public static void main(String[] args) throws IOException {
-		TestBasic t = new TestBasic();
-		t.england();
-	}
-	
+
+
 
 	public void england() throws IOException {
 		System.out.println("Loading large file into jena model...");
@@ -47,7 +47,7 @@ public class TestBasic {
 		OntClass city =  m.createClass(base + "City");
 		OntClass other =  m.createClass(base + "Other");
 		
-		FileReader file = new FileReader("GB.txt");
+		FileReader file = new FileReader("jenaext/GB.txt");
 		BufferedReader reader = new BufferedReader(file);
 		reader.readLine();
 		for (String line; (line = reader.readLine()) != null;) {
@@ -87,7 +87,7 @@ public class TestBasic {
 		try {
 			ResultSet results = qexec.execSelect();
 			for (;results.hasNext();) {
-				QuerySolution soln = results.nextSolution(); soln.
+				QuerySolution soln = results.nextSolution();
 				double lat =  soln.getLiteral("lat").getDouble();
 				double lon = soln.getLiteral("lon").getDouble();
 				String place = soln.getLiteral("n").getString();				
@@ -125,7 +125,8 @@ public class TestBasic {
 		}
 	}
 
-	public void test() {
+	@Test
+	public void testGood() {
 		
 		Model m = ModelFactory.createDefaultModel();
 		m.read("file:capitals.rdf");
@@ -158,6 +159,44 @@ public class TestBasic {
 
 	}
 	
+	@Test
+	public void testError() {
+		
+		Model m = ModelFactory.createDefaultModel();
+		m.read("file:jenaext/capitals.rdf");
+		IStorageManager store = SpatialIndex.createMemoryStorageManager();
+		RTree rtree = new RTree(props(), store);
+		Indexer i = new Indexer(rtree);
+		i.createIndex(m);
+
+		
+		String queryString = 
+			"PREFIX : <http://www.geonames.org/ontology#>" +			
+			"PREFIX geo: <java:org.geospatialweb.arqext.>\n\n " +
+			"SELECT ?n WHERE { ?s :name ?n . ?s geo:nearby(19 -99 10)  }";
+
+		Query query = QueryFactory.create(queryString);
+		QueryExecution qexec = QueryExecutionFactory.create(query, m);
+		Geo.setContext(qexec, i);
+		boolean caught = false;
+		try {
+			long t1 = System.currentTimeMillis();
+			ResultSet results = qexec.execSelect();
+			long t2 = System.currentTimeMillis();
+			System.out.println(t2-t1);
+			for (;results.hasNext();) {
+				System.out.println(results.nextSolution().getLiteral("n"));
+				
+			}
+			
+		} catch(Exception e) {
+			caught = true;
+		} finally {
+			qexec.close();
+		}
+		assertTrue(caught);
+
+	}
 	private static PropertySet props() {
 		PropertySet ps2 = new PropertySet();
 		Double f = new Double(0.7);
