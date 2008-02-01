@@ -46,6 +46,7 @@ public class TestBasic {
 		OntModel m = ModelFactory.createOntologyModel();
 		OntClass city =  m.createClass(base + "City");
 		OntClass other =  m.createClass(base + "Other");
+
 		
 		FileReader file = new FileReader("jenaext/GB.txt");
 		BufferedReader reader = new BufferedReader(file);
