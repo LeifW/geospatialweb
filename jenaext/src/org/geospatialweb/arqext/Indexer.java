@@ -20,6 +20,10 @@ import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.Model;
 
 /**
+ * Basic indexer for spatial data annotated with
+ * the w3c wgs84_pos namespace. Any resource having lat and long
+ * properties from namespace http://www.w3.org/2003/01/geo/wgs84_pos#
+ * are indexed, along with their URI.
  * 
  * @author Taylor Cowan
  */

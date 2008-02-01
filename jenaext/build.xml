@@ -14,12 +14,7 @@
 	<property name="release" value="0.0"/>
 
 
-	<!-- ================================= 
-          target: default              
-         ================================= -->
-	<target name="default" depends="compile" description="--> description">
-
-	</target>
+	<target name="default" depends="compile" description="--> description"/>
 
 	<target name="init">
 		<tstamp />
@@ -32,7 +27,15 @@
 	</target>
 
 	<target name="compile" depends="init">
-		<javac srcdir="${src}" destdir="${build}" debug="true">
+		<javac srcdir="../geospatialweb/src" destdir="${build}" excludes="**/Test*.java" debug="true">
+			<classpath>
+				<fileset dir="jenalib">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+		<javac srcdir="../spatialindex/src" destdir="${build}" debug="true"/>
+		<javac srcdir="${src}" destdir="${build}" debug="true" excludes="**/Test*.java">
 			<classpath>
 				<fileset dir="jenalib">
 					<include name="**/*.jar" />
@@ -45,7 +48,7 @@
 		<buildnumber file="buildnumber.txt"/>
 		<jar destfile="${dist}/geospatial-${release}.${build.number}.jar" basedir="${build}" 
 			compress="true" 
-			excludes="**/test **test/** **/example **/example/**" />
+			excludes="**/Test*" />
 	</target>
 
 </project>
