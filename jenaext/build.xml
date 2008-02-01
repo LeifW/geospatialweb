@@ -11,6 +11,7 @@
 	<property name="src" location="src" />
 	<property name="build" location="build" />
 	<property name="dist" location="dist" />
+	<property name="release" value="0.0"/>
 
 
 	<!-- ================================= 
@@ -41,7 +42,8 @@
 	</target>
 
 	<target name="jar" depends="compile">
-		<jar destfile="${dist}/geospatial.jar" basedir="${build}" 
+		<buildnumber file="buildnumber.txt"/>
+		<jar destfile="${dist}/geospatial-${release}.${build.number}.jar" basedir="${build}" 
 			compress="true" 
 			excludes="**/test **test/** **/example **/example/**" />
 	</target>
