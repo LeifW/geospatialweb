@@ -133,8 +133,6 @@ public class TestBasic {
 		RTree rtree = new RTree(props(), store);
 		Indexer i = new Indexer(rtree);
 		i.createIndex(m);
-
-		
 		String queryString = 
 			"PREFIX : <http://www.geonames.org/ontology#>" +			
 			"PREFIX geo: <java:org.geospatialweb.arqext.>\n\n " +
@@ -162,7 +160,7 @@ public class TestBasic {
 	public void testGood() {
 		
 		Model m = ModelFactory.createDefaultModel();
-		m.read("file:capitals.rdf");
+		m.read("file:jenaext/capitals.rdf");
 		IStorageManager store = SpatialIndex.createMemoryStorageManager();
 		RTree rtree = new RTree(props(), store);
 		Indexer i = new Indexer(rtree);
@@ -234,8 +232,8 @@ public class TestBasic {
 		PropertySet ps2 = new PropertySet();
 		Double f = new Double(0.7);
 		ps2.setProperty("FillFactor", f);
-		ps2.setProperty("IndexCapacity", 20);
-		ps2.setProperty("LeafCapacity", 20);
+		ps2.setProperty("IndexCapacity", 100);
+		ps2.setProperty("LeafCapacity", 100);
 			// Index capacity and leaf capacity may be different.
 		ps2.setProperty("Dimension", 2);
 		return ps2;
