@@ -70,7 +70,7 @@ public class Indexer {
 		return results;
 	}
 	
-	public List<String> getWithin(double lat, double lon, double lat2, double lon2, int i) {
+	public List<String> getWithin(double lat, double lon, double lat2, double lon2) {
 		
 		final List<String> results = new LinkedList<String>();
 		IVisitor v = new IVisitor() {
