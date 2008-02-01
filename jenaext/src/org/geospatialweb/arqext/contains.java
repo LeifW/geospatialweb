@@ -16,11 +16,16 @@ import com.hp.hpl.jena.sparql.expr.NodeValue;
 import com.hp.hpl.jena.sparql.pfunction.PropFuncArg;
 import com.hp.hpl.jena.sparql.pfunction.PropFuncArgType;
 import com.hp.hpl.jena.sparql.pfunction.PropertyFunctionEval;
-import com.hp.hpl.jena.sparql.util.NodeFactory;
 import com.hp.hpl.jena.util.iterator.Map1;
 import com.hp.hpl.jena.util.iterator.Map1Iterator;
 
 /**
+ * Returns resources from a spatial index that are within the given
+ * rectangle.  The coordinates are entered as 4 decimal values, lat/lon, lower
+ * point followed by higher point.  For example, if you are looking at a map, first
+ * provide the latitude and longitude of the lower left corner, then the latitude
+ * and longitude of the upper right corner.  The call will return all index
+ * nodes values that should appear on the map.
  * 
  * @author Taylor Cowan
  */
@@ -74,7 +79,4 @@ public class contains extends PropertyFunctionEval {
 
 	}
 
-	static private int asInteger(Node n) {
-		return (n == null) ? Integer.MIN_VALUE:NodeFactory.nodeToInt(n);
-	}
 }
