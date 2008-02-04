@@ -18,6 +18,4 @@ public class distance extends FunctionBase4 {
 		geo.getDistance2D(lat, lon, lat2, lon2);
 		return null;
 	}
-
-
 }
