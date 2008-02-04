@@ -47,13 +47,19 @@ public class Main {
 		out.println("hotels near Bristol...");
 		runQuery(m, i, queryString);		
 
-
 		queryString = 
 			"PREFIX : <http://example.org/>" +			
 			"PREFIX geo: <java:org.geospatialweb.arqext.>\n\n " +
 			"SELECT ?n WHERE { ?s geo:nearby(51.45 -2.5833333 30) . ?s a :City . ?s :name ?n }";
 		out.println("cities near Bristol...");
 		runQuery(m, i, queryString);		
+
+		queryString = 
+			"PREFIX : <http://example.org/>" +			
+			"PREFIX geo: <java:org.geospatialweb.arqext.>\n\n " +
+			"SELECT ?n WHERE { ?s geo:within(51.44 -2.72 51.52 -2.45 ) . ?s a :City . ?s :name ?n }";
+		out.println("cities within bouding box...");
+		runQuery(m, i, queryString);				
 		
 	}
 
