@@ -29,9 +29,9 @@ import com.hp.hpl.jena.util.iterator.Map1Iterator;
  * 
  * @author Taylor Cowan
  */
-public class contains extends PropertyFunctionEval {
+public class within extends PropertyFunctionEval {
 
-	public contains() {
+	public within() {
 		super(PropFuncArgType.PF_ARG_EITHER, PropFuncArgType.PF_ARG_EITHER);
 	}
 
