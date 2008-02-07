@@ -59,6 +59,10 @@ public class Indexer {
 
 	}
 	
+	public int getSize() {
+		return id;
+	}
+	
 	public List<String> getNearby(double lat, double lon, int i) {
 		
 		final List<String> results = new LinkedList<String>();
