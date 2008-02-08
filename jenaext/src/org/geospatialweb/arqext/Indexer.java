@@ -31,17 +31,22 @@ public class Indexer {
 
 	private ISpatialIndex index;
 	private int id = 0;
+	private static final String defaultQueryString = 
+		"PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n\n " +
+		"SELECT ?s ?lat ?lon " + 
+		"WHERE {?s geo:lat ?lat . ?s geo:long ?lon}";
 
 	public Indexer(ISpatialIndex i) {
 		index = i;
 	}
-
+	
 	public void createIndex(Model m) {
-		String queryString = 
-			"PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n\n " +
-			"SELECT ?s ?lat ?lon " + 
-			"WHERE {?s geo:lat ?lat . ?s geo:long ?lon}";
-		Query query = QueryFactory.create(queryString);
+		createIndex(m,defaultQueryString);
+	}
+
+	public void createIndex(Model m, String q) {
+
+		Query query = QueryFactory.create(q);
 		QueryExecution qexec = QueryExecutionFactory.create(query, m);
 		try {
 			ResultSet results = qexec.execSelect();

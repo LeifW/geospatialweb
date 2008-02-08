@@ -32,7 +32,7 @@ public class ClassifyGeodata {
 
 		BufferedReader reader = new BufferedReader(file);
 		reader.readLine();
-		int i=0;
+
 		for (String line; (line = reader.readLine()) != null;) {
 			String[] values = line.split("\t");
 			String id = values[0];
@@ -49,19 +49,20 @@ public class ClassifyGeodata {
 				//System.out.println(population);
 			} else if (HOTEL.equals(subtype)) {
 				r = hotel.createIndividual(base + id);
-			}else if (AIRPORT.equals(subtype)) {
+			} else if (AIRPORT.equals(subtype)) {
 				r = airport.createIndividual(base + id);
-			} else { 
+			} else {
 				continue;
 			}
 			
 			r.addProperty(plat, m.createTypedLiteral(lat));
 			r.addProperty(plon, m.createTypedLiteral(lon));
 			r.addProperty(pname, name);
-			if ( name.equals("Marlow"))
-				System.out.println(r.getRDFType());
 
 		} 
+		
+
 		return m;
 	}
+	
 }

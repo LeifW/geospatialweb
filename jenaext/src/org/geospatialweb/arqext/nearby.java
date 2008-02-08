@@ -41,10 +41,12 @@ public class nearby extends PropertyFunctionEval {
 	@Override
 	public QueryIterator execEvaluated(Binding binding, PropFuncArg argSubject,
 			Node arg2, PropFuncArg argObject, ExecutionContext ctx) {
-		//System.out.println(argObject.getArg());
 		if ( argObject.isNode())
-			return nearbyNode(binding, argSubject, argObject.getArg(), ctx);
-		
+			return nearbyNode(binding, argSubject, argObject.getArg(), ctx, 100);
+		else if (argObject.getArgListSize() == 2) {
+			Node limit = argObject.getArg(1);
+			return nearbyNode(binding, argSubject, argObject.getArg(0), ctx, asInteger(limit));
+		}
 		Node nlat = argObject.getArg(0);
 		Node nlon = argObject.getArg(1);
 		Node limit = argObject.getArg(2);
@@ -52,7 +54,7 @@ public class nearby extends PropertyFunctionEval {
 	}
 
 	private QueryIterator nearbyNode(Binding binding, PropFuncArg argSubject, Node n,
-			ExecutionContext ctx) {
+			ExecutionContext ctx, int limit) {
 		double lat = Double.MIN_VALUE;
 		double lon = Double.MIN_VALUE;
 		Graph g = ctx.getActiveGraph();
@@ -67,7 +69,7 @@ public class nearby extends PropertyFunctionEval {
 			lon = asFloat(t.getObject());
 		}
 		if ( (lat != Double.MIN_VALUE) && (lon != Double.MIN_VALUE))
-			return find(binding, argSubject.getArg(), ctx, lat, lon, LIMIT);			
+			return find(binding, argSubject.getArg(), ctx, lat, lon, limit);			
 		return new QueryIterNullIterator(ctx);
 	}
 

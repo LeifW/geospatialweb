@@ -40,9 +40,11 @@ public class TestBasic {
 		System.out.println(t2 -t1);
 		IStorageManager store = SpatialIndex.createMemoryStorageManager();
 		RTree rtree = new RTree(props(), store);
+		
+		
 		Indexer i = new Indexer(rtree);
 		i.createIndex(m);
-		System.out.println("Index size: " + i.getSize());
+
 
 		String queryString = "PREFIX : <http://example.org/>"
 				+ "PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n\n "
@@ -51,7 +53,8 @@ public class TestBasic {
 		queryString = "PREFIX : <http://example.org/>"
 				+ "PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n "
 				+ "PREFIX ext: <java:org.geospatialweb.arqext.>\n\n "
-				+ "SELECT ?city ?hotel ?lat1 ?lon1 ?lat2 ?lon2 WHERE { ?c a :City . ?s ext:nearby ?c . ?s :name ?hotel . ?c :name ?city . ?s a :Hotel "
+				+ "SELECT ?city ?hotel ?lat1 ?lon1 ?lat2 ?lon2 " 
+				+ "WHERE { ?c a :City . ?s ext:nearby( ?c 20 ) . ?s :name ?hotel . ?c :name ?city . ?s a :Airport "
 				+ " . ?c geo:lat ?lat1 . ?c geo:long ?lon1 . ?s geo:lat ?lat2 . ?s geo:long ?lon2}";
 
 		// First get a list of cities to find nearby things
@@ -72,8 +75,6 @@ public class TestBasic {
 				String hotel = soln.getLiteral("hotel").getString();
 				double dist = GeometryFunction.getDistanceSpheroid(lat1, lon1, lat2, lon2);
 				System.out.print(city + " " + hotel  + " " + dist + "\n");
-				// String place = soln.getLiteral("n").getString();
-				// findNearbyStuff(m, i, place, lat, lon);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -117,7 +118,7 @@ public class TestBasic {
 		i.createIndex(m);
 		String queryString = "PREFIX : <http://www.geonames.org/ontology#>"
 				+ "PREFIX geo: <java:org.geospatialweb.arqext.>\n\n "
-				+ "SELECT ?n WHERE { ?s geo:contains(38.18 -9.78 53.75 22.41 ) . ?s :name ?n }";
+				+ "SELECT ?n WHERE { ?s geo:within(38.18 -9.78 53.75 22.41 ) . ?s :name ?n }";
 
 		Query query = QueryFactory.create(queryString);
 		QueryExecution qexec = QueryExecutionFactory.create(query, m);
