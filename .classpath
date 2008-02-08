@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="geospatialweb/src"/>
+	<classpathentry kind="src" path="jenaext/example"/>
+	<classpathentry kind="src" path="spatialindex/src"/>
+	<classpathentry kind="src" path="jenaext/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="jenaext/jenalib/arq.jar" sourcepath="C:/opt/ARQ-2.1"/>
+	<classpathentry kind="lib" path="jenaext/jenalib/jena.jar" sourcepath="C:/opt/Jena-2.5.4/src"/>
+	<classpathentry kind="lib" path="jenaext/jenalib/junit-4.4.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jenabean"/>
+	<classpathentry kind="lib" path="/jenabean/jenalib/log4j-1.2.12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
