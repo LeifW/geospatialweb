@@ -1,0 +1,138 @@
+6504938	Red Lion Hotel	RED LION HOTEL		51.5348	-0.4608	S	HTL	GB		ENG				0		38	Europe/London	2007-04-14
+6504958	Ston Easton Park	STON EASTON PARK		51.2851	-2.5428	S	HTL	GB		ENG				0		150	Europe/London	2007-04-13
+6504977	The Lygon Arms Hotel	THE LYGON ARMS HOTEL		52.0361	-1.8612	S	HTL	GB		ENG				0		115	Europe/London	2007-04-13
+6504991	Berkeley Court Hotel	BERKELEY COURT HOTEL		51.51541	-0.16045	S	HTL	GB		ENG				0		31	Europe/London	2007-04-13
+6505021	Travelodge Exeter M5	TRAVELODGE EXETER M5		50.7241	-3.5188	S	HTL	GB		ENG				0		45	Europe/London	2007-04-13
+6505048	Haymarket Hotel	HAYMARKET HOTEL		51.5088	-0.1311	S	HTL	GB		ENG				0		21	Europe/London	2007-04-15
+6505109	Best Western Popinjay Hotel	BEST WESTERN POPINJAY HOTEL		55.7214	-3.897	S	HTL	GB		SCT				0		76	Europe/London	2007-04-14
+6505130	Travelodge Warrington	TRAVELODGE WARRINGTON		53.3915	-2.5998	S	HTL	GB		ENG				0		8	Europe/London	2007-04-13
+6505137	Wayford Bridge	WAYFORD BRIDGE		52.7746	1.499	S	HTL	GB		ENG				0		1	Europe/London	2007-04-13
+6505175	The Pear Tree	THE PEAR TREE		51.5818	-1.8638	S	HTL	GB		ENG				0		111	Europe/London	2007-04-13
+6505194	The Green Hotel	THE GREEN HOTEL		56.2082	-3.4233	S	HTL	GB		SCT				0		128	Europe/London	2007-04-14
+6505205	Horsley Park	HORSLEY PARK		51.2716	-0.4325	S	HTL	GB		ENG				0		86	Europe/London	2007-04-15
+6505354	Wessex Royale Hotel	WESSEX ROYALE HOTEL		50.715	-2.4405	S	HTL	GB		ENG				0		71	Europe/London	2007-04-13
+6505385	Glenapp Castle	GLENAPP CASTLE		55.5182	-4.3668	S	HTL	GB		SCT				0		152	Europe/London	2007-04-13
+6505398	Queens Hotel	QUEENS HOTEL		54.6005	-3.1365	S	HTL	GB		ENG				0		90	Europe/London	2007-04-13
+6505403	Little Haven Hotel	LITTLE HAVEN HOTEL		54.9987	-1.4374	S	HTL	GB		ENG				0		1	Europe/London	2007-04-13
+6505429	Best Western Hardwick Hall	BEST WESTERN HARDWICK HALL		54.6833	-1.4437	S	HTL	GB		ENG				0		109	Europe/London	2007-04-13
+6505479	Avonmore Hotel	AVONMORE HOTEL		51.4942	-0.2054	S	HTL	GB		ENG				0		26	Europe/London	2007-04-13
+6505609	Ibis Rugby East	IBIS RUGBY EAST		51.5908	-2.7276	S	HTL	GB		WLS				0		1	Europe/London	2007-04-13
+6505650	The Bull Hotel	THE BULL HOTEL		53.2559	-4.312	S	HTL	GB		WLS				0		41	Europe/London	2007-04-13
+6505664	Collingham Suites N Apartments	COLLINGHAM SUITES N APARTMENTS		51.49215	-0.1877	S	HTL	GB		ENG				0		23	Europe/London	2007-04-13
+6505686	Barnham Broom	BARNHAM BROOM		52.6368	1.085	S	HTL	GB		ENG				0		20	Europe/London	2007-04-13
+6505759	Lincolnshire Oak Hotel	LINCOLNSHIRE OAK HOTEL		53.004	-0.3975	S	HTL	GB		ENG				0		45	Europe/London	2007-04-13
+6505785	Milford Hall Classic Hotel	MILFORD HALL CLASSIC HOTEL		51.0742	-1.7966	S	HTL	GB		ENG				0		51	Europe/London	2007-04-13
+6505800	Village Bury	VILLAGE BURY		53.5906	-2.2762	S	HTL	GB		ENG				0		104	Europe/London	2007-04-13
+6505836	Bedford Lodge Hotel	BEDFORD LODGE HOTEL		52.2511	0.4152	S	HTL	GB		ENG				0		70	Europe/London	2007-04-13
+6505957	Best Western Chiseldon House	BEST WESTERN CHISELDON HOUSE		51.5148	-1.7237	S	HTL	GB		ENG				0		152	Europe/London	2007-04-13
+6506018	Lord Leycester Hotel	LORD LEYCESTER HOTEL		52.2817	-1.5864	S	HTL	GB		ENG				0		73	Europe/London	2007-04-13
+6506074	Tortworth Court Four Pillars	TORTWORTH COURT FOUR PILLARS		51.6319	-2.4345	S	HTL	GB		ENG				0		57	Europe/London	2007-04-13
+6506087	Lower Slaughter Manor	LOWER SLAUGHTER MANOR		51.9026	-1.7615	S	HTL	GB		ENG				0		149	Europe/London	2007-04-13
+6506099	Woodley Hotel	WOODLEY HOTEL		51.4936	-0.1918	S	HTL	GB		ENG				0		25	Europe/London	2007-04-13
+6506194	Rowhill Grange Hotel And Spa	ROWHILL GRANGE HOTEL AND SPA		51.4167	0.1967	S	HTL	GB		ENG				0		51	Europe/London	2007-04-13
+6506267	Macdonald Burlington Hotel	MACDONALD BURLINGTON HOTEL		52.4738	-1.8474	S	HTL	GB		ENG				0		112	Europe/London	2007-04-13
+6506319	Oakwood At St  Johns House	OAKWOOD AT ST  JOHNS HOUSE		51.4625	-0.0172	S	HTL	GB		ENG				0		15	Europe/London	2007-04-13
+6506405	Pine Trees Hotel Pitlochry	PINE TREES HOTEL PITLOCHRY		56.7061	-3.7383	S	HTL	GB		SCT				0		125	Europe/London	2007-04-13
+6506451	Simpsons Hotel	SIMPSONS HOTEL		57.1411	-2.1372	S	HTL	GB		SCT				0		33	Europe/London	2007-04-13
+6506470	Cedar Court Bradford Leeds	CEDAR COURT BRADFORD LEEDS		53.7694	-1.7535	S	HTL	GB		ENG				0		154	Europe/London	2007-04-13
+6506473	Carlton Mitre Hotel	CARLTON MITRE HOTEL		51.3959	-0.3429	S	HTL	GB		ENG				0		21	Europe/London	2007-04-13
+6506492	Ibis Bradford Shipley	IBIS BRADFORD SHIPLEY		54.0	-2.0	S	HTL	GB		ENG				0		314	Europe/London	2007-04-13
+6506539	Number Sixteen Hotel	NUMBER SIXTEEN HOTEL		51.5713	-0.274	S	HTL	GB		ENG				0		50	Europe/London	2007-04-13
+6506584	Rocco Forte Lowry Hotel	ROCCO FORTE LOWRY HOTEL		53.4832	-2.2512	S	HTL	GB		ENG				0		57	Europe/London	2007-04-13
+6506607	Hastings Slieve Donard Hotel	HASTINGS SLIEVE DONARD HOTEL		53.0084	-2.2294	S	HTL	GB		ENG				0		144	Europe/London	2007-04-13
+6506614	Ibis Lincoln	IBIS LINCOLN		53.2027	-0.5944	S	HTL	GB		ENG				0		35	Europe/London	2007-04-13
+6506623	The Lion Hotel	THE LION HOTEL		53.0276	-1.4856	S	HTL	GB		ENG				0		76	Europe/London	2007-04-13
+6506640	Ibis Preston North	IBIS PRESTON NORTH		53.7988	-2.7157	S	HTL	GB		ENG				0		37	Europe/London	2007-04-13
+6506770	Menzies Barons Court Hotel	MENZIES BARONS COURT HOTEL		52.6256	-1.9332	S	HTL	GB		ENG				0		153	Europe/London	2007-04-13
+6506855	The Edgar Hotel	THE EDGAR HOTEL		51.3844	-2.3545	S	HTL	GB		ENG				0		62	Europe/London	2007-04-13
+6506860	Ibis Wellingborough	IBIS WELLINGBOROUGH		52.2854	-0.7119	S	HTL	GB		ENG				0		76	Europe/London	2007-04-13
+6506875	Arundell Arms Hotel	ARUNDELL ARMS HOTEL		50.6444	-4.2894	S	HTL	GB		ENG				0		62	Europe/London	2007-04-13
+6506921	Travelodge London Park Royal	TRAVELODGE LONDON PARK ROYAL		51.5268	-0.283	S	HTL	GB		ENG				0		35	Europe/London	2007-04-13
+6506968	Best Western Webbington Hotel	BEST WESTERN WEBBINGTON HOTEL		51.296115086574	-2.88725852966309	S	HTL	GB		ENG				0		58	Europe/London	2007-11-23
+6507006	Fifty Four Boutique Hotel	FIFTY FOUR BOUTIQUE HOTEL		51.4939	-0.1743	S	HTL	GB		ENG				0		21	Europe/London	2007-04-13
+6507018	Travelodge Telford Shawbirch	TRAVELODGE TELFORD SHAWBIRCH		51.8688	-0.756	S	HTL	GB		ENG				0		87	Europe/London	2007-04-13
+6507097	Travelodge Reading Whitley	TRAVELODGE READING WHITLEY		51.42869	-0.96936	S	HTL	GB		ENG				0		69	Europe/London	2007-04-13
+6507117	Matfen Hall Country House Hotel	MATFEN HALL COUNTRY HOUSE HOTEL		55.04093	-1.6384	S	HTL	GB		ENG				0		76	Europe/London	2007-04-13
+6507129	Travelodge Knutsford Tabley	TRAVELODGE KNUTSFORD TABLEY		53.315	-2.4172	S	HTL	GB		ENG				0		32	Europe/London	2007-04-13
+6507165	Tlodge Cardiff Llanedeyrn	TLODGE CARDIFF LLANEDEYRN		51.6207	-3.5383	S	HTL	GB		WLS				0		316	Europe/London	2007-04-13
+2642953	Martinhoe	Martinhoe		51.2166667	-3.9	P	PPL	GB		ENG	D4			0		119	Europe/London	2007-06-15
+2642954	Isle Martin	Isle Martin		57.95	-5.2333333	T	ISL	GB		V3	V3			0		1	Europe/London	2004-09-22
+2642955	Martin	Martin		53.1833333	-0.15	P	PPL	GB		ENG	H7			0		39	Europe/London	2007-06-15
+2642956	Martin	Martin		53.1166667	-0.3333333	P	PPL	GB		ENG	H7			0		28	Europe/London	2007-06-15
+2642957	Martin	Martin		51.1666667	1.35	P	PPL	GB		ENG	G5			0		76	Europe/London	2007-06-15
+2642958	Martin	Martin		50.9666667	-1.9	P	PPL	GB		ENG	F2			0		76	Europe/London	2007-06-15
+2642959	Martham	Martham		52.7	1.6333333	P	PPL	GB		ENG	I9			3089		1	Europe/London	2006-01-17
+2642960	Marthall	Marthall		53.2833333	-2.3	P	PPL	GB		ENG	C5			0		76	Europe/London	2007-06-15
+2642961	Marsworth	Marsworth		51.8166667	-0.6666667	P	PPL	GB		ENG	F8			0		121	Europe/London	2007-06-15
+2642962	Marstow	Marstow		51.8666667	-2.65	P	PPL	GB		ENG	00			0		76	Europe/London	1994-01-13
+2642963	Marston Moretaine	Marston Moretaine		52.05	-0.55	P	PPL	GB		ENG	A5			3109		76	Europe/London	2007-06-15
+2642964	Marston Moor Station	Marston Moor Station		53.9833333	-1.2166667	S	RSTN	GB		ENG	00			0		18	Europe/London	1994-01-13
+2642965	Marston Montgomery	Marston Montgomery		52.9333333	-1.7833333	P	PPL	GB		ENG	D3			0		130	Europe/London	2007-06-15
+2642966	Marston Meysey	Marston Meysey	Marston Maisey	51.6666667	-1.8166667	P	PPL	GB	GB	ENG	E6			0		81	Europe/London	2007-06-15
+2642967	Marston Magna	Marston Magna		51.0	-2.5833333	P	PPL	GB		ENG	M3			0		68	Europe/London	2007-06-16
+2642968	Marston Green	Marston Green		52.45	-1.75	P	PPL	GB		ENG	00			0		94	Europe/London	1994-01-13
+2642969	Marstongate Station	Marstongate Station		51.8333333	-0.7166667	S	RSTN	GB		ENG	00			0		104	Europe/London	1994-01-13
+2642970	Marston	Marston		53.2666667	-2.5	P	PPL	GB		ENG	C5			0		10	Europe/London	2007-06-15
+2642971	Marston	Marston		52.9666667	-0.6666667	P	PPL	GB		ENG	H7			0		66	Europe/London	2007-06-15
+2642972	Marston	Marston		51.7666667	-1.2333333	P	PPL	GB		ENG	K2			0		76	Europe/London	2007-06-16
+2642973	Marske Beck	Marske Beck		54.3833333	-1.8166667	H	STM	GB		ENG	00			0		214	Europe/London	1994-01-13
+2642974	Marske-by-the-Sea	Marske-by-the-Sea	Marske	54.5927778	-1.0175	P	PPL	GB		ENG	K9			9120		16	Europe/London	2007-06-16
+2642975	Marske	Marske		54.3833333	-1.8333333	P	PPL	GB		ENG	J7			0		219	Europe/London	2007-06-16
+2642976	Marshwood	Marshwood		50.7833333	-2.8666667	P	PPL	GB		ENG	D6			0		76	Europe/London	2007-06-15
+2642977	Marsh Mills	Marsh Mills		50.3833333	-4.0833333	S	RSTN	GB		ENG	00			0		53	Europe/London	1994-01-13
+2642978	Marshland	Marshland		52.6333333	0.2333333	A	ADMD	GB		ENG	00			0		5	Europe/London	1994-01-13
+2642979	Marsh Gibbon	Marsh Gibbon		51.9	-1.05	P	PPL	GB		ENG	B9			0		75	Europe/London	2007-06-15
+2642980	Marshfield	Marshfield	Marshfields	51.5338889	-3.0730556	P	PPL	GB		WLS	Y6			2665		42	Europe/London	2006-01-17
+2642981	Marshfield	Marshfield		51.4619444	-2.32	P	PPL	GB		ENG	M6			0		160	Europe/London	2004-09-22
+2642982	Marsh Chapel	Marsh Chapel		53.4666667	0.05	P	PPL	GB		ENG	H7			0		4	Europe/London	2007-06-15
+2642983	Marshbrook	Marshbrook		52.5	-2.8333333	P	PPL	GB		ENG	L6			0		216	Europe/London	2007-06-16
+2642984	Marsh Baldon	Marsh Baldon		51.6833333	-1.1833333	P	PPL	GB		ENG	K2			0		72	Europe/London	2007-06-16
+2642985	Marshaw	Marshaw		53.9666667	-2.6333333	P	PPL	GB		ENG	H2			0		286	Europe/London	2007-06-15
+2642986	Marsham	Marsham		52.7666667	1.25	P	PPL	GB		ENG	I9			0		6	Europe/London	2004-09-20
+2642987	Marshall Meadows	Marshall Meadows		55.8	-2.0333333	P	PPL	GB		ENG	J6			0		21	Europe/London	2007-06-16
+2642988	Marsett	Marsett		54.2666667	-2.15	P	PPL	GB		ENG	J7			0		307	Europe/London	2007-06-16
+2642989	Marsden Rock	Marsden Rock		54.9788889	-1.3752778	T	RK	GB		00	00			0		1	Europe/London	1996-12-10
+2642990	Marsden Point	Marsden Point		54.9847222	-1.3825	T	PT	GB		00	00			0		-9999	Europe/London	1996-12-10
+2642991	Marsden	Marsden		54.9666667	-1.3666667	P	PPL	GB		00	00			0		1	Europe/London	1994-01-13
+2642992	Marsden	Marsden		53.6	-1.9166667	P	PPL	GB		ENG	00			3577		321	Europe/London	2006-01-17
+2642993	Marsco	Marsco		57.2333333	-6.1333333	T	MT	GB		SCT	V3			0		186	Europe/London	2004-09-24
+2642994	Marros	Marros	Marras	51.75	-4.6	P	PPL	GB	GB	WLS	X7			0		42	Europe/London	2004-09-22
+2642995	Marrick	Marrick		54.3833333	-1.8833333	P	PPL	GB		ENG	J7			0		229	Europe/London	2007-06-16
+2642996	Marr Burn	Marr Burn	Mar Burn	55.2666667	-3.7833333	H	STM	GB	GB	SCT	00			0		107	Europe/London	1994-01-13
+2642997	Marra Flaeshins	Marra Flaeshins		60.3833333	-1.05	T	RK	GB		W3	W3			0		-9999	Europe/London	2004-09-24
+2642998	Marr	Marr		53.5429595943394	-1.22051239013672	P	PPL	GB		ENG				0		70	Europe/London	2006-07-03
+2642999	Marple	Marple		53.4	-2.0666667	P	PPL	GB		ENG	00			18886		105	Europe/London	2006-01-17
+2643000	Marnoch	Marnoch		57.5333333	-2.6666667	P	PPL	GB		SCT	T6			0		76	Europe/London	2004-10-06
+2643001	Marnhull	Marnhull		50.9666667	-2.3166667	P	PPL	GB		ENG	D6			0		61	Europe/London	2007-06-15
+2643002	Marlpool	Marlpool		53.0	-1.3333333	P	PPL	GB		ENG	D3			0		73	Europe/London	2007-06-15
+2643003	Marlow	Marlow	Great Marlow	51.5666667	-0.7666667	P	PPL	GB		ENG	P4			17912		34	Europe/London	2007-06-16
+2643004	Marloes	Marloes		51.7308333	-5.1983333	P	PPL	GB		WLS	Y7			0		1	Europe/London	2004-09-22
+2643005	Mar Lodge	Mar Lodge		56.9833333	-3.4833333	S	EST	GB		SCT	T6			0		497	Europe/London	2004-10-08
+2643006	Marlingford	Marlingford		52.6333333	1.15	P	PPL	GB		ENG	I9			0		16	Europe/London	2004-09-20
+2643007	Marlie Loch	Marlie Loch	Loch of Drumellie,Marlee Loch	56.5666667	-3.4	H	LK	GB	GB	SCT	W1			0		57	Europe/London	2004-10-12
+2643008	Marlesford	Marlesford		52.1666667	1.4	P	PPL	GB		ENG	N5			0		15	Europe/London	2007-06-16
+2643009	Marldon	Marldon		50.4666667	-3.6	P	PPL	GB		ENG	D4			1838		89	Europe/London	2007-06-15
+2643010	Marlborough	Marlborough		51.4166667	-1.7166667	P	PPL	GB		ENG	P8			7885		137	Europe/London	2007-06-16
+2643011	Markyate	Markyate	Markyatestreet	51.8333333	-0.45	P	PPL	GB		ENG	F8			2826		133	Europe/London	2007-06-15
+2643012	Marks Tey	Marks Tey		51.8666667	0.7833333	P	PPL	GB		ENG	E4			3679		28	Europe/London	2007-06-15
+2643013	Markshall	Markshall		51.9	0.6833333	P	PPL	GB		ENG	E4			0		37	Europe/London	2007-06-15
+2643014	Marks Hall	Marks Hall		51.9	0.6833333	S	EST	GB		ENG	00			0		37	Europe/London	1994-01-13
+2643015	Marksbury	Marksbury		51.3580556	-2.4805556	P	PPL	GB		ENG	A4			0		121	Europe/London	2004-09-22
+2643016	Markinch	Markinch		56.2	-3.1333333	P	PPL	GB		SCT	V1			2309		44	Europe/London	2006-01-17
+2643017	Markie Water	Markie Water		57.4333333	-2.9666667	H	STM	GB		SCT	V6			0		251	Europe/London	2004-10-06
+2643018	Glen Markie	Glen Markie		57.0833333	-4.3333333	T	VAL	GB		SCT	V3			0		698	Europe/London	2004-09-22
+2643019	Markfield	Markfield		52.6666667	-1.2833333	P	PPL	GB		ENG	H5			5080		153	Europe/London	2007-06-15
+2643020	Market Weston	Market Weston		52.3666667	0.9166667	P	PPL	GB		ENG	N5			0		38	Europe/London	2007-06-16
+2643021	Market Weighton	Market Weighton		53.8666667	-0.6666667	P	PPL	GB		ENG	00			4712		73	Europe/London	2006-01-17
+2643022	Market Warsop	Market Warsop		53.2	-1.15	P	PPL	GB		ENG	J9			0		77	Europe/London	2007-06-16
+2643023	Market Rasen	Market Rasen		53.3833333	-0.3333333	P	PPL	GB		ENG	H7			3569		49	Europe/London	2007-06-15
+2643024	Market Overton	Market Overton		52.7166667	-0.6833333	P	PPL	GB		ENG	H5			0		76	Europe/London	2007-06-15
+2643025	Market Lavington	Market Lavington	Lavington	51.2833333	-1.9833333	P	PPL	GB		ENG	P8			1963		152	Europe/London	2007-06-16
+2643026	Market Hill	Market Hill		54.3	-6.5166667	P	PPL	GB		NIR	00			0		105	Europe/London	1994-01-13
+2643027	Market Harborough	Market Harborough		52.4666667	-0.9166667	P	PPL	GB		ENG	H5			20575		89	Europe/London	2007-06-15
+2643028	Market Drayton	Market Drayton		52.9053820125978	-2.49011993408203	P	PPL	GB		ENG	M9			10639		88	Europe/London	2007-06-16
+2643029	Market Deeping	Market Deeping		52.6765382021841	-0.316286087036133	P	PPL	GB		ENG	C3			13891		30	Europe/London	2007-11-09
+2643030	Market Bosworth	Market Bosworth		52.6166667	-1.4	P	PPL	GB		ENG	H5			1948		110	Europe/London	2007-06-15
+2643031	Mark Cross	Mark Cross		51.05	0.25	P	PPL	GB		ENG	E2			0		76	Europe/London	2007-06-15
+2643032	Water of Mark	Water of Mark	Mark Water	56.9166667	-2.9166667	H	STM	GB	GB	SCT	T7			0		339	Europe/London	2004-10-08
+2643033	Glen Mark	Glen Mark		56.9333333	-3.05	T	VAL	GB		SCT	T7			0		604	Europe/London	2004-10-08
