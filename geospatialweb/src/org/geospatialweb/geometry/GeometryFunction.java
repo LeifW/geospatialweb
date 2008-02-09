@@ -8,8 +8,12 @@ public class GeometryFunction {
 	 * @see 	http://geospatialweb.googlecode.com
 	 */
 	
+	
+	//radius of the equator in km
 	protected static final double RADIUS_EQUATOR = 6378;
-	protected static final double RADIUS_POLES = 6357;  
+	
+	//polar radius  in km
+	protected static final double RADIUS_POLAR = 6357;  
 	
 	public double getDistance2D(double x1, double y1, double x2, double y2){
 		double dx = x2-x1;
@@ -45,7 +49,7 @@ public class GeometryFunction {
 	
 	protected static final double globeRadiusOfCurvature(double lat) {
 		    double a = RADIUS_EQUATOR;  
-		    double b = RADIUS_POLES;    
+		    double b = RADIUS_POLAR;    
 		    double e = Math.sqrt(1 - Math.sqrt(b/a)); 
 		    return a*Math.sqrt(1-Math.sqrt(e)) / (1-Math.sqrt(e*Math.sin(lat)));
 	}
