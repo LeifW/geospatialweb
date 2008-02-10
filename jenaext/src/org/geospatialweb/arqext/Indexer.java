@@ -10,6 +10,10 @@ import spatialindex.ISpatialIndex;
 import spatialindex.IVisitor;
 import spatialindex.Point;
 import spatialindex.Region;
+import spatialindex.SpatialIndex;
+import spatialindex.rtree.RTree;
+import spatialindex.storagemanager.IStorageManager;
+import spatialindex.storagemanager.PropertySet;
 
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
@@ -31,13 +35,27 @@ public class Indexer {
 
 	private ISpatialIndex index;
 	private int id = 0;
-	private static final String defaultQueryString = 
-		"PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n\n " +
+	public static final String w3c_geo = "http://www.w3.org/2003/01/geo/wgs84_pos#";
+	public static final String defaultQueryString = 
+		"PREFIX geo: <" + w3c_geo + ">\n\n " +
 		"SELECT ?s ?lat ?lon " + 
 		"WHERE {?s geo:lat ?lat . ?s geo:long ?lon}";
 
 	public Indexer(ISpatialIndex i) {
 		index = i;
+	}
+	
+	/**
+	 * Creates a default indexer that uses an in memory store.
+	 *  
+	 * @return
+	 */
+	public static Indexer createDefaultIndexer() {
+		PropertySet props = new PropertySet();
+		props.setProperty("Dimension", 2);
+		IStorageManager store = SpatialIndex.createMemoryStorageManager();
+		RTree rtree = new RTree(props, store);
+		return new Indexer(rtree);
 	}
 	
 	public void createIndex(Model m) {
