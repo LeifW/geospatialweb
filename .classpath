@@ -5,10 +5,21 @@
 	<classpathentry kind="src" path="spatialindex/src"/>
 	<classpathentry kind="src" path="jenaext/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="jenaext/jenalib/arq.jar" sourcepath="C:/opt/ARQ-2.1"/>
-	<classpathentry kind="lib" path="jenaext/jenalib/jena.jar" sourcepath="C:/opt/Jena-2.5.4/src"/>
-	<classpathentry kind="lib" path="jenaext/jenalib/junit-4.4.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/jenabean"/>
-	<classpathentry kind="lib" path="/jenabean/jenalib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/antlr-2.7.5.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/arq.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/arq-extra.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/concurrent.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/geospatial-0.0.2.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/icu4j_3_4.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/iri.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/jena.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/json.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/junit.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/lucene-core-2.0.0.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="geospatialweb/lib/xml-apis.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
