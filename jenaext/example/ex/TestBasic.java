@@ -34,15 +34,8 @@ public class TestBasic {
 	@Test
 	public void england() throws IOException {
 		System.out.println("Loading large file into jena model...");
-		long t1 = System.currentTimeMillis();
 		OntModel m = ClassifyGeodata.getModel("jenaext/GB.txt");
-		long t2 = System.currentTimeMillis();
-		System.out.println(t2 -t1);
-		IStorageManager store = SpatialIndex.createMemoryStorageManager();
-		RTree rtree = new RTree(props(), store);
-		
-		
-		Indexer i = new Indexer(rtree);
+		Indexer i = Indexer.createDefaultIndexer();
 		i.createIndex(m);
 
 
