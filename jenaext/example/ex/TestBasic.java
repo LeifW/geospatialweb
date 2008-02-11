@@ -40,15 +40,15 @@ public class TestBasic {
 
 
 		String queryString = "PREFIX : <http://example.org/>"
-				+ "PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n\n "
-				+ "SELECT ?n ?lat ?lon WHERE { ?s a :City . ?s :name ?n . ?s geo:lat ?lat . ?s geo:long ?lon}";
+			+ "PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n\n "
+			+ "SELECT ?n ?lat ?lon WHERE { ?s a :City . ?s :name ?n . ?s geo:lat ?lat . ?s geo:long ?lon}";
 
 		queryString = "PREFIX : <http://example.org/>"
-				+ "PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n "
-				+ "PREFIX ext: <java:org.geospatialweb.arqext.>\n\n "
-				+ "SELECT ?city ?hotel ?lat1 ?lon1 ?lat2 ?lon2 " 
-				+ "WHERE { ?c a :City . ?s ext:nearby( ?c 20 ) . ?s :name ?hotel . ?c :name ?city . ?s a :Airport "
-				+ " . ?c geo:lat ?lat1 . ?c geo:long ?lon1 . ?s geo:lat ?lat2 . ?s geo:long ?lon2}";
+			+ "PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n "
+			+ "PREFIX ext: <java:org.geospatialweb.arqext.>\n\n "
+			+ "SELECT ?city ?hotel ?lat1 ?lon1 ?lat2 ?lon2 " 
+			+ "WHERE { ?c a :City . ?s ext:nearby( ?c 20 ) . ?s :name ?hotel . ?c :name ?city . ?s a :Airport "
+			+ " . ?c geo:lat ?lat1 . ?c geo:long ?lon1 . ?s geo:lat ?lat2 . ?s geo:long ?lon2}";
 
 		// First get a list of cities to find nearby things
 		Query query = QueryFactory.create(queryString);
