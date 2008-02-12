@@ -44,7 +44,7 @@ public class within extends PropertyFunctionEval {
 		List<String> l = idx.getWithin(asFloat(nlat), asFloat(nlon), asFloat(nlat2), asFloat(nlon2));
 		Node match = argSubject.getArg();
 		if (! match.isVariable())
-			throw new QueryExecException("nearby() must come first in your WHERE clause.");
+			throw new QueryExecException("within() must come first in your WHERE clause.");
 		HitConverter cnv = new HitConverter(binding, Var.alloc(match));
 		Iterator<?> iter = new Map1Iterator(cnv, l.iterator());
 		return new QueryIterPlainWrapper(iter, ctx);
