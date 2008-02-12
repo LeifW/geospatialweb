@@ -12,7 +12,6 @@ import com.hp.hpl.jena.sparql.core.Var;
 import com.hp.hpl.jena.sparql.engine.ExecutionContext;
 import com.hp.hpl.jena.sparql.engine.QueryIterator;
 import com.hp.hpl.jena.sparql.engine.binding.Binding;
-import com.hp.hpl.jena.sparql.engine.binding.BindingMap;
 import com.hp.hpl.jena.sparql.engine.iterator.QueryIterNullIterator;
 import com.hp.hpl.jena.sparql.engine.iterator.QueryIterPlainWrapper;
 import com.hp.hpl.jena.sparql.expr.NodeValue;
@@ -21,7 +20,6 @@ import com.hp.hpl.jena.sparql.pfunction.PropFuncArgType;
 import com.hp.hpl.jena.sparql.pfunction.PropertyFunctionEval;
 import com.hp.hpl.jena.sparql.util.NodeFactory;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
-import com.hp.hpl.jena.util.iterator.Map1;
 import com.hp.hpl.jena.util.iterator.Map1Iterator;
 
 /**
@@ -30,9 +28,8 @@ import com.hp.hpl.jena.util.iterator.Map1Iterator;
  */
 public class nearby extends PropertyFunctionEval {
 
-	private Node plat = Node.createURI("http://www.w3.org/2003/01/geo/wgs84_pos#lat");
-	private Node plon = Node.createURI("http://www.w3.org/2003/01/geo/wgs84_pos#long");
-	private int LIMIT = 100;
+	private static Node plat = Node.createURI("http://www.w3.org/2003/01/geo/wgs84_pos#lat");
+	private static Node plon = Node.createURI("http://www.w3.org/2003/01/geo/wgs84_pos#long");
 	
 	public nearby() {
 		super(PropFuncArgType.PF_ARG_EITHER, PropFuncArgType.PF_ARG_EITHER);
@@ -63,11 +60,13 @@ public class nearby extends PropertyFunctionEval {
 			Triple t = (Triple)it.next();
 			lat = asFloat(t.getObject());
 		}
+		it.close();
 		it = g.find(n, plon, Node.ANY);
 		if ( it.hasNext()) {
 			Triple t = (Triple)it.next();
 			lon = asFloat(t.getObject());
 		}
+		it.close();
 		if ( (lat != Double.MIN_VALUE) && (lon != Double.MIN_VALUE))
 			return find(binding, argSubject.getArg(), ctx, lat, lon, limit);			
 		return new QueryIterNullIterator(ctx);
@@ -93,24 +92,6 @@ public class nearby extends PropertyFunctionEval {
 		else if ( nv.isDouble())
 			return nv.getDouble();
 		return Float.MIN_VALUE;
-	}
-
-	static class HitConverter implements Map1 {
-		private Binding binding;
-		private Var match;
-
-		HitConverter(Binding binding, Var matchVar) {			
-			this.binding = binding;
-			this.match = matchVar;
-		}
-
-		public Object map1(Object thing) {
-			String uri = (String) thing;
-			Binding b = new BindingMap(binding);
-			b.add(match, Node.createURI(uri));
-			return b;
-		}
-
 	}
 
 	static private int asInteger(Node n) {
