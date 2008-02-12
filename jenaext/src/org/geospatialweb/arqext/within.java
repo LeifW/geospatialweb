@@ -10,13 +10,11 @@ import com.hp.hpl.jena.sparql.core.Var;
 import com.hp.hpl.jena.sparql.engine.ExecutionContext;
 import com.hp.hpl.jena.sparql.engine.QueryIterator;
 import com.hp.hpl.jena.sparql.engine.binding.Binding;
-import com.hp.hpl.jena.sparql.engine.binding.BindingMap;
 import com.hp.hpl.jena.sparql.engine.iterator.QueryIterPlainWrapper;
 import com.hp.hpl.jena.sparql.expr.NodeValue;
 import com.hp.hpl.jena.sparql.pfunction.PropFuncArg;
 import com.hp.hpl.jena.sparql.pfunction.PropFuncArgType;
 import com.hp.hpl.jena.sparql.pfunction.PropertyFunctionEval;
-import com.hp.hpl.jena.util.iterator.Map1;
 import com.hp.hpl.jena.util.iterator.Map1Iterator;
 
 /**
@@ -61,22 +59,5 @@ public class within extends PropertyFunctionEval {
 		return Float.MIN_VALUE;
 	}
 
-	static class HitConverter implements Map1 {
-		private Binding binding;
-		private Var match;
-
-		HitConverter(Binding binding, Var matchVar) {			
-			this.binding = binding;
-			this.match = matchVar;
-		}
-
-		public Object map1(Object thing) {
-			String uri = (String) thing;
-			Binding b = new BindingMap(binding);
-			b.add(match, Node.createURI(uri));
-			return b;
-		}
-
-	}
 
 }
