@@ -36,18 +36,17 @@ public class nearby extends PropertyFunctionEval {
 	}
 
 	@Override
-	public QueryIterator execEvaluated(Binding binding, PropFuncArg argSubject,
-			Node arg2, PropFuncArg argObject, ExecutionContext ctx) {
-		if ( argObject.isNode())
-			return nearbyNode(binding, argSubject, argObject.getArg(), ctx, 100);
-		else if (argObject.getArgListSize() == 2) {
-			Node limit = argObject.getArg(1);
-			return nearbyNode(binding, argSubject, argObject.getArg(0), ctx, asInteger(limit));
+	public QueryIterator execEvaluated(Binding binding, PropFuncArg subject,
+			Node arg2, PropFuncArg object, ExecutionContext ctx) {
+		if ( object.isNode())
+			return nearbyNode(binding, subject, object.getArg(), ctx, 100);
+		else if (object.getArgListSize() == 2) {
+			return nearbyNode(binding, subject, object.getArg(0), ctx, asInteger(object.getArg(1)));
 		}
-		Node nlat = argObject.getArg(0);
-		Node nlon = argObject.getArg(1);
-		Node limit = argObject.getArg(2);
-		return find(binding, argSubject.getArg(), ctx, asFloat(nlat), asFloat(nlon), asInteger(limit));
+		Node nlat = object.getArg(0);
+		Node nlon = object.getArg(1);
+		Node limit = object.getArg(2);
+		return find(binding, subject.getArg(), ctx, asFloat(nlat), asFloat(nlon), asInteger(limit));
 	}
 
 	private QueryIterator nearbyNode(Binding binding, PropFuncArg argSubject, Node n,
@@ -59,17 +58,16 @@ public class nearby extends PropertyFunctionEval {
 		if ( it.hasNext()) {
 			Triple t = (Triple)it.next();
 			lat = asFloat(t.getObject());
-		}
-		it.close();
+			it.close();
+		} else return new QueryIterNullIterator(ctx);
+
 		it = g.find(n, plon, Node.ANY);
 		if ( it.hasNext()) {
 			Triple t = (Triple)it.next();
 			lon = asFloat(t.getObject());
-		}
-		it.close();
-		if ( (lat != Double.MIN_VALUE) && (lon != Double.MIN_VALUE))
-			return find(binding, argSubject.getArg(), ctx, lat, lon, limit);			
-		return new QueryIterNullIterator(ctx);
+			it.close();
+		} else return new QueryIterNullIterator(ctx);
+		return find(binding, argSubject.getArg(), ctx, lat, lon, limit);			
 	}
 
 	private QueryIterator find(Binding binding, Node match,
