@@ -5,7 +5,6 @@ import java.util.List;
 
 import spatialindex.IData;
 import spatialindex.INode;
-import spatialindex.IShape;
 import spatialindex.ISpatialIndex;
 import spatialindex.IVisitor;
 import spatialindex.Point;
@@ -86,28 +85,24 @@ public class Indexer {
 		return id;
 	}
 	
-	public List<String> getNearby(double lat, double lon, int i) {
-		
-		final List<String> results = new LinkedList<String>();
-		IVisitor v = new IVisitor() {
+	public List<String> getNearby(double lat, double lon, int i) {		
+		List<String> results = new LinkedList<String>();
+		index.nearestNeighborQuery(i, new Point(lat, lon), visitor(results));
+		return results;
+	}
+
+	private IVisitor visitor(final List<String> results) {
+		return new IVisitor() {
 			public void visitData(IData d) {results.add(new String(d.getData()));}
 			public void visitNode(INode n) {}			
 		};
-		index.nearestNeighborQuery(i, new Point(lat, lon), v);
-		return results;
 	}
 	
 	public List<String> getWithin(double lat, double lon, double lat2, double lon2) {
-		
-		final List<String> results = new LinkedList<String>();
-		IVisitor v = new IVisitor() {
-			public void visitData(IData d) {results.add(new String(d.getData()));}
-			public void visitNode(INode n) {}			
-		};
+		List<String> results = new LinkedList<String>();
 		double[] low = new double[] {lat, lon};
 		double[] high = new double[] {lat2, lon2};
-		IShape shape = new Region(low, high);
-		index.containmentQuery(shape, v);
+		index.containmentQuery(new Region(low, high), visitor(results));
 		return results;
 	}	
 	

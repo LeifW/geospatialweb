@@ -1,6 +1,3 @@
-/**
- * 
- */
 package org.geospatialweb.arqext;
 
 import com.hp.hpl.jena.graph.Node;
@@ -18,10 +15,9 @@ class HitConverter implements Map1 {
 		this.match = matchVar;
 	}
 
-	public Object map1(Object thing) {
-		String uri = (String) thing;
+	public Object map1(Object uri) {
 		Binding b = new BindingMap(binding);
-		b.add(match, Node.createURI(uri));
+		b.add(match, Node.createURI(uri.toString()));
 		return b;
 	}
 
