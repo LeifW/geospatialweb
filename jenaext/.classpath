@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="jenalib/arq.jar"/>
+	<classpathentry kind="lib" path="jenalib/jena.jar"/>
+	<classpathentry kind="lib" path="jenalib/junit-4.4.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spatialindex"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/geospatialweb"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
