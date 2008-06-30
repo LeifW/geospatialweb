@@ -4,7 +4,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/jenaext/jenalib"/>
 	<classpathentry kind="lib" path="lib/arq.jar"/>
-	<classpathentry kind="lib" path="lib/geospatial-0.0.2.jar"/>
 	<classpathentry kind="lib" path="lib/jena.jar"/>
 	<classpathentry kind="lib" path="lib/junit-4.4.jar"/>
 	<classpathentry kind="lib" path="lib/iri.jar"/>
@@ -19,5 +18,6 @@
 	<classpathentry kind="lib" path="lib/lucene-core-2.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/xercesImpl.jar"/>
 	<classpathentry kind="lib" path="lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="/jenaext/dist/geospatial-0.0.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

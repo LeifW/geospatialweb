@@ -1,7 +1,20 @@
 package test;
 
+import java.io.File;
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
+import org.geospatialweb.arqext.Indexer;
 import org.geospatialweb.geometry.GeometryFunction;
+
+import com.hp.hpl.jena.ontology.OntModel;
+import com.hp.hpl.jena.query.Query;
+import com.hp.hpl.jena.query.QueryExecution;
+import com.hp.hpl.jena.query.QueryExecutionFactory;
+import com.hp.hpl.jena.query.QueryFactory;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
+
+import test.QueryTest;
 
 import spatialindex.SpatialIndex;
 import spatialindex.rtree.RTree;
@@ -26,16 +39,15 @@ public class TestGeoSpatialAPI extends TestCase {
 	public void testSpatialQuery(){
 		
 		//Create the RTree-index 
-		IStorageManager store = SpatialIndex.createMemoryStorageManager();
-		RTree rtree = new RTree(props(), store);
+		//IStorageManager store = SpatialIndex.createMemoryStorageManager();
+		//RTree rtree = new RTree(props(), store);
 		
-		String queryString = "PREFIX : <http://example.org/>"
-			+ "PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n "
-			+ "PREFIX ext: <java:org.geospatialweb.arqext.>\n\n "
-			+ "SELECT ?city ?hotel ?lat1 ?lon1 ?lat2 ?lon2 " 
-			+ "WHERE { ?c a :City . ?s ext:nearby( ?c 20 ) . ?s :name ?hotel . ?c :name ?city . ?s a :Airport "
-			+ " . ?c geo:lat ?lat1 . ?c geo:long ?lon1 . ?s geo:lat ?lat2 . ?s geo:long ?lon2}";
-		
+		QueryTest qt = new QueryTest();
+		try{
+			qt.doIT();
+		}catch(IOException ex){
+			
+		}
 		
 	}
 	
