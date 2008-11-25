@@ -32,7 +32,7 @@ public class GeometryFunction {
 		return distance;
 	} 
 	
-	static public double getDistanceSpheroid(double x1, double y1, double x2, double y2) {
+	public double getDistanceSpheroid(double x1, double y1, double x2, double y2) {
 		    double lat1 = radians(x1), lat2 = radians(x2), dlat = lat2-lat1;
 		    double dlong = radians(y2)-radians(y1);
 
