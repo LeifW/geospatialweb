@@ -14,7 +14,7 @@ import com.hp.hpl.jena.query.QueryExecutionFactory;
 import com.hp.hpl.jena.query.QueryFactory;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 
-import test.QueryTest;
+import test.SpatialQueryTest;
 
 import spatialindex.SpatialIndex;
 import spatialindex.rtree.RTree;
@@ -25,27 +25,17 @@ import junit.framework.TestCase;
 
 //Test GeoSpatialWeb. Index RDF data and perform query 
 
-public class TestGeoSpatialAPI extends TestCase {
-
-	Logger log;
-	
-	public TestGeoSpatialAPI() {
-		log = Logger.getLogger(GeometryFunction.class);
-	}
-	
-	public void testGetDistanceSpheroid() {
-		log.info(GeometryFunction.getDistanceSpheroid(40.45, 73.5, -13.23, 52.3)==6302.787147083358);
-	}
+public class TestGeoSpatialWeb extends TestCase {
 	
 	public void testSpatialQuery(){
 		
-		//Create the RTree-index 
-		//IStorageManager store = SpatialIndex.createMemoryStorageManager();
-		//RTree rtree = new RTree(props(), store);
+		// Create the RTree-index 
+		// IStorageManager store = SpatialIndex.createMemoryStorageManager();
+		// RTree rtree = new RTree(props(), store);
 		
-		QueryTest qt = new QueryTest();
+		SpatialQueryTest sqt = new SpatialQueryTest();
 		try{
-			qt.doIT();
+			sqt.runSpatialIndexTest();
 		}catch(IOException ex){
 			
 		}

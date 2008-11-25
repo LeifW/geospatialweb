@@ -39,7 +39,8 @@ public class GeometryFunction {
 		    double a = square(Math.sin(dlat/2)) 
 		               + Math.cos(lat1)*Math.cos(lat2)*square(Math.sin(dlong/2));
 		    double c = 2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a)); 
-		    double r = globeRadiusOfCurvature((lat1+lat2)/2); 
+		    double r = globeRadiusOfCurvature((lat1+lat2)/2);
+		    System.out.println("Is is near?:"+r*c);
 		    return r*c;
 	}
 

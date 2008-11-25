@@ -18,6 +18,6 @@
 	<classpathentry kind="lib" path="lib/lucene-core-2.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/xercesImpl.jar"/>
 	<classpathentry kind="lib" path="lib/xml-apis.jar"/>
-	<classpathentry kind="lib" path="/jenaext/dist/geospatial-0.0.2.jar"/>
+	<classpathentry kind="lib" path="/jenaext/dist/geospatial-0.0.4.jar" sourcepath="/spatialindex"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -25,12 +25,12 @@ import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 
-public class QueryTest implements Runnable {
+public class SpatialQueryTest implements Runnable {
 
-	public static void doIT() throws IOException {
+	public static void runSpatialIndexTest() throws IOException {
 
 		out.print("Loading geo data");
-		Thread t = new Thread(new QueryTest());
+		Thread t = new Thread(new SpatialQueryTest());
 		t.start();
 		OntModel m = ModelFactory.createOntologyModel();
 		convert(m, new File("GB.txt"));
