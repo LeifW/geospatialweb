@@ -23,6 +23,7 @@ import spatialindex.storagemanager.PropertySet;
 
 import junit.framework.TestCase;
 
+//Test GeoSpatialWeb. Index RDF data and perform query 
 
 public class TestGeoSpatialAPI extends TestCase {
 
