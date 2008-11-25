@@ -5,7 +5,6 @@
 	<classpathentry kind="lib" path="jenalib/arq.jar"/>
 	<classpathentry kind="lib" path="jenalib/jena.jar"/>
 	<classpathentry kind="lib" path="jenalib/junit-4.4.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/spatialindex"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/geospatialweb"/>
+	<classpathentry kind="lib" path="/geospatialweb/lib/geospatial-0.0.2.jar" sourcepath="/geospatialweb"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
