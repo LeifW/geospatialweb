@@ -15,7 +15,8 @@ public class distance extends FunctionBase4 {
 		double lon2 = v4.getDouble();
 	
 		GeometryFunction geo = new GeometryFunction();
-		geo.getDistance2D(lat, lon, lat2, lon2);
+		//geo.getDistance2D(lat, lon, lat2, lon2);
+		geo.getDistanceSpheroid(lat, lon, lat2, lon2);
 		return null;
 	}
 }
