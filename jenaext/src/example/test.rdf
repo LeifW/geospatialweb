@@ -1,0 +1,34 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://ecs.soton.ac.uk/translation/"
+    xmlns:j.1="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <rdf:Description rdf:about="http://www.geonames.org/6357743">
+    <j.1:lat>36.7934539326599</j.1:lat>
+    <j.1:long>-3.60010126600404</j.1:long>
+    <j.0:featurecode>ADM3</j.0:featurecode>
+  </rdf:Description>
+  <j.0:amphora rdf:about="http://ecs.soton.ac.uk/translation/Dressel+24">
+    <rdfs:label>Dressel 24</rdfs:label>
+    <j.0:origin>
+      <j.0:location rdf:about="http://ecs.soton.ac.uk/translation/Pergamon">
+        <rdfs:label>Pergamon</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.geonames.org/19849"/>
+      </j.0:location>
+    </j.0:origin>
+    <rdfs:comment>A production centre has been found near &lt;em&gt;Pergamon&lt;/em&gt; (Pers. Comm. T. Bezeczky), although it is likely there are others in the general region.</rdfs:comment>
+    <j.0:origin>
+      <j.0:location rdf:about="http://ecs.soton.ac.uk/translation/Pers">
+        <rdfs:label>Pers</rdfs:label>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://www.geonames.org/6427606">
+            <j.1:lat>44.8833333</j.1:lat>
+            <j.1:long>2.2333333</j.1:long>
+            <j.0:featurecode>ADM4</j.0:featurecode>
+          </rdf:Description>
+        </owl:sameAs>
+      </j.0:location>
+    </j.0:origin>
+  </j.0:amphora>
+</rdf:RDF>
