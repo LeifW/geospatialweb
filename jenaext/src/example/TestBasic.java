@@ -66,7 +66,7 @@ public class TestBasic {
 				double lon2 = soln.getLiteral("lon2").getDouble();
 				String city = soln.getLiteral("city").getString();
 				String hotel = soln.getLiteral("hotel").getString();
-				double dist = GeometryFunction.getDistanceSpheroid(lat1, lon1, lat2, lon2);
+				double dist = new GeometryFunction().getDistanceSpheroid(lat1, lon1, lat2, lon2);
 				System.out.print(city + " " + hotel  + " " + dist + "\n");
 			}
 		} catch (Exception e) {
