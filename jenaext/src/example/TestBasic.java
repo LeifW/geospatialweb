@@ -193,6 +193,7 @@ public class TestBasic {
 
 		} catch (Exception e) {
 			caught = true;
+			//e.printStackTrace();
 		} finally {
 			qexec.close();
 		}
