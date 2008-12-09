@@ -273,15 +273,12 @@ public class DiskStorageManager implements IStorageManager {
 
 	public void deleteByteArray(final int id) {
 		// find the entry.
-		Entry e = (Entry) m_pageIndex.get(id);
+		Entry e = m_pageIndex.get(id);
 		if (e == null)
 			throw new InvalidPageException(id);
-
 		m_pageIndex.remove(id);
-
-		for (int cIndex = 0; cIndex < e.m_pages.size(); cIndex++) {
+		for (int cIndex = 0; cIndex < e.m_pages.size(); cIndex++)
 			m_emptyPages.add(e.m_pages.get(cIndex));
-		}
 	}
 
 	public void close() {
