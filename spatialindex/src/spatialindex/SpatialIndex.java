@@ -29,9 +29,9 @@
 
 package spatialindex;
 
-import spatialindex.storagemanager.*;
-
-import java.io.*;
+import spatialindex.storagemanager.IStorageManager;
+import spatialindex.storagemanager.MemoryStorageManager;
+import spatialindex.storagemanager.PropertySet;
 
 public class SpatialIndex
 {
@@ -61,9 +61,5 @@ public class SpatialIndex
 		return new MemoryStorageManager();
 	}
 
-	public static IStorageManager createDiskStorageManager(PropertySet ps)
-		throws SecurityException, NullPointerException, IOException, FileNotFoundException, IllegalArgumentException
-	{
-		return new DiskStorageManager(ps);
-	}
+
 } // SpatialIndex
