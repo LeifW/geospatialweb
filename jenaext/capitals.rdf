@@ -27,7 +27,7 @@
 <featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
 <featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
 <inCountry rdf:resource="http://www.geonames.org/countries/#IR"/>
-<population>7153309</population>
+<population>7153309.002</population>
 <wgs84_pos:lat>35.6719444</wgs84_pos:lat>
 <wgs84_pos:long>51.4244444</wgs84_pos:long>
 <nearbyFeatures rdf:resource="http://sws.geonames.org/112931/nearby.rdf"/>
@@ -39,7 +39,7 @@
 <featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
 <featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
 <inCountry rdf:resource="http://www.geonames.org/countries/#TR"/>
-<population>3517182</population>
+<population>3517182.1234</population>
 <wgs84_pos:lat>39.9272222</wgs84_pos:lat>
 <wgs84_pos:long>32.8644444</wgs84_pos:long>
 <nearbyFeatures rdf:resource="http://sws.geonames.org/323786/nearby.rdf"/>
@@ -806,7 +806,7 @@
 <name>Santiago</name><featureClass rdf:resource="http://www.geonames.org/ontology#P"/>
 <featureCode rdf:resource="http://www.geonames.org/ontology#P.PPLC"/>
 <inCountry rdf:resource="http://www.geonames.org/countries/#CL"/>
-<population>4837295</population>
+<population rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4837295</population>
 <wgs84_pos:lat>-33.45</wgs84_pos:lat>
 <wgs84_pos:long>-70.6666667</wgs84_pos:long>
 <nearbyFeatures rdf:resource="http://sws.geonames.org/3871336/nearby.rdf"/>
