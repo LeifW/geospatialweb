@@ -89,6 +89,12 @@ public class nearby extends PropertyFunctionEval {
 			return nv.getFloat();
 		else if ( nv.isDouble())
 			return nv.getDouble();
+		else if (nv.isString()) 
+		try {
+			return Double.parseDouble(nv.getString());
+		} catch (NumberFormatException e) {
+			
+		}
 		return Float.MIN_VALUE;
 	}
 
