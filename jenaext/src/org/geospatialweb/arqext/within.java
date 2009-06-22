@@ -46,7 +46,7 @@ public class within extends PropertyFunctionEval {
 		if (! match.isVariable())
 			throw new QueryExecException("within() must come first in your WHERE clause.");
 		HitConverter cnv = new HitConverter(binding, Var.alloc(match));
-		Iterator<?> iter = new Map1Iterator(cnv, l.iterator());
+		Iterator<Binding> iter = new Map1Iterator(cnv, l.iterator());
 		return new QueryIterPlainWrapper(iter, ctx);
 	}
 
