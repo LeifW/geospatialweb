@@ -1,4 +1,4 @@
-package test;
+package org.geospatialweb;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,7 +14,7 @@ import com.hp.hpl.jena.query.QueryExecutionFactory;
 import com.hp.hpl.jena.query.QueryFactory;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 
-import test.SpatialQueryTest;
+import org.geospatialweb.SpatialQueryTest;
 
 import spatialindex.SpatialIndex;
 import spatialindex.rtree.RTree;

@@ -1,4 +1,4 @@
-package test;
+package org.geospatialweb;
 
 import org.apache.log4j.Logger;
 import org.geospatialweb.geometry.GeometryFunction;

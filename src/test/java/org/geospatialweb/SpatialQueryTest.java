@@ -1,4 +1,4 @@
-package test;
+package org.geospatialweb;
 
 import static java.lang.System.out;
 
