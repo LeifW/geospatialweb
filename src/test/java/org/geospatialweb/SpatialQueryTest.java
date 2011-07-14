@@ -33,7 +33,7 @@ public class SpatialQueryTest implements Runnable {
 		Thread t = new Thread(new SpatialQueryTest());
 		t.start();
 		OntModel m = ModelFactory.createOntologyModel();
-		convert(m, new File("GB.txt"));
+		convert(m, new File("testdata/GB.txt"));
 		// create an rtree index (external to ARQ) of all data
 		// tagged with wgs84_pos
 		RTree rtree = new RTree(props(), SpatialIndex.createMemoryStorageManager());

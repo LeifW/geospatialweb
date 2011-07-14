@@ -1,4 +1,4 @@
-package example;
+package org.geospatialweb;
 
 /**
  * You'll need more that just the libs in jenalib.  jenalib has the bare minimum to
@@ -34,7 +34,7 @@ public class TestBasic {
 	@Test
 	public void england() throws IOException {
 		System.out.println("Loading large file into jena model...");
-		OntModel m = ClassifyGeodata.getModel("jenaext/GB.txt");
+		OntModel m = ClassifyGeodata.getModel("testdata/GB.txt");
 		Indexer i = Indexer.createDefaultIndexer();
 		i.createIndex(m);
 
@@ -104,7 +104,7 @@ public class TestBasic {
 	@Test
 	public void testWithin() {
 		Model m = ModelFactory.createDefaultModel();
-		m.read("file:jenaext/capitals.rdf");
+		m.read("file:testdata/capitals.rdf");
 		IStorageManager store = SpatialIndex.createMemoryStorageManager();
 		RTree rtree = new RTree(props(), store);
 		Indexer i = new Indexer(rtree);
@@ -135,7 +135,7 @@ public class TestBasic {
 	public void testGood() {
 
 		Model m = ModelFactory.createDefaultModel();
-		m.read("file:jenaext/capitals.rdf");
+		m.read("file:testdata/capitals.rdf");
 		IStorageManager store = SpatialIndex.createMemoryStorageManager();
 		RTree rtree = new RTree(props(), store);
 		Indexer i = new Indexer(rtree);
@@ -167,7 +167,7 @@ public class TestBasic {
 	public void testError() {
 
 		Model m = ModelFactory.createDefaultModel();
-		m.read("file:jenaext/capitals.rdf");
+		m.read("file:testdata/capitals.rdf");
 		IStorageManager store = SpatialIndex.createMemoryStorageManager();
 		RTree rtree = new RTree(props(), store);
 		Indexer i = new Indexer(rtree);

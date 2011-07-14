@@ -1,4 +1,4 @@
-package example;
+package org.geospatialweb;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
